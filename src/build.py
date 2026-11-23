@@ -24,7 +24,8 @@ def auth_groups(values):
 def gate_group(value):
     s=value.lower()
     if s in ('self_serve','self-serve','free','free_trial','open_source','none','account','trial','self_hosted','self_host_or_trial','trial_then_usage','trial_then_paid','plan_limits','permissions_and_scale'): return 'Self-serve / trial'
-    if any(x in s for x in ('unknown','unverified','unresolved','unclear')): return 'Unresolved'
+    if s=='mixed': return 'Edition-dependent'
+    if any(x in s for x in ('unknown','unverified','unresolved','unclear','eligibility')): return 'Unresolved'
     if any(x in s for x in ('partner','sales','contact')): return 'Outreach'
     if any(x in s for x in ('review','approval','distribution','public_app','verification')): return 'Review / approval'
     if 'paid' in s or 'plan' in s or 'subscription' in s: return 'Paid / admin'

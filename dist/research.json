@@ -70,7 +70,7 @@
       "auth": [
         "OAuth2",
         "API key",
-        "token"
+        "Token"
       ],
       "access": {
         "sandbox": "Free developer account and test accounts.",
@@ -138,7 +138,7 @@
       "description": "Sales CRM for deals, contacts and pipeline activities.",
       "auth": [
         "OAuth2",
-        "token"
+        "Token"
       ],
       "access": {
         "sandbox": "Developer sandbox signup form; 5 seats by default.",
@@ -193,7 +193,7 @@
       "description": "Configurable CRM for relationship data and go-to-market workflows.",
       "auth": [
         "OAuth2",
-        "token"
+        "Token"
       ],
       "access": {
         "sandbox": "API keys available on all plans; workspace admin creates them.",
@@ -607,7 +607,7 @@
       "description": "Customer support suite with tickets, help centers and messaging.",
       "auth": [
         "OAuth2",
-        "token (legacy)"
+        "Token (legacy)"
       ],
       "access": {
         "sandbox": "Self-serve 14-day trial; sponsored developer accounts require request.",
@@ -673,7 +673,7 @@
       "category": "Support and Helpdesk",
       "description": "Customer messaging, support inbox and AI support platform.",
       "auth": [
-        "token",
+        "Token",
         "OAuth2"
       ],
       "access": {
@@ -785,7 +785,7 @@
       "category": "Support and Helpdesk",
       "description": "Shared inbox and customer-operations collaboration platform.",
       "auth": [
-        "token",
+        "Token",
         "OAuth2"
       ],
       "access": {
@@ -846,7 +846,7 @@
       "category": "Support and Helpdesk",
       "description": "B2B support platform spanning Slack, email and customer accounts.",
       "auth": [
-        "token"
+        "Token"
       ],
       "access": {
         "sandbox": "Free prospect trials arranged by sales; Enterprise sandbox listed.",
@@ -1151,7 +1151,7 @@
       "category": "Support and Helpdesk",
       "description": "Customer-centric service platform for omnichannel conversations.",
       "auth": [
-        "token",
+        "Token",
         "Basic"
       ],
       "access": {
@@ -1213,7 +1213,7 @@
       "description": "Team messaging, channels and collaboration workflows.",
       "auth": [
         "OAuth2",
-        "token"
+        "Token"
       ],
       "access": {
         "sandbox": "Free Developer Program sandbox documented.",
@@ -1277,7 +1277,7 @@
       "auth": [
         "API key",
         "Basic",
-        "token"
+        "Token"
       ],
       "access": {
         "sandbox": "Free 30-day trial; email and phone verification; geographic availability restrictions.",
@@ -1391,7 +1391,7 @@
       "category": "Communications and Messaging",
       "description": "Workplace suite for messaging, documents, calendars and business apps.",
       "auth": [
-        "token",
+        "Token",
         "OAuth2"
       ],
       "access": {
@@ -1511,7 +1511,7 @@
       "category": "Communications and Messaging",
       "description": "Community messaging with bots, servers and interactive apps.",
       "auth": [
-        "token",
+        "Token",
         "OAuth2"
       ],
       "access": {
@@ -1567,7 +1567,7 @@
       "category": "Communications and Messaging",
       "description": "Messaging platform with a programmable bot interface.",
       "auth": [
-        "token"
+        "Token"
       ],
       "access": {
         "sandbox": "Create bot through BotFather and receive a token.",
@@ -1620,7 +1620,7 @@
       "category": "Communications and Messaging",
       "description": "Business messaging, calling and customer communication platform.",
       "auth": [
-        "token",
+        "Token",
         "OAuth"
       ],
       "access": {
@@ -2640,7 +2640,7 @@
         "OAuth2",
         "Token"
       ],
-      "gate_group": "Other conditions"
+      "gate_group": "Edition-dependent"
     },
     {
       "id": 46,
@@ -4865,7 +4865,7 @@
       "auth_groups": [
         "API key"
       ],
-      "gate_group": "Other conditions"
+      "gate_group": "Unresolved"
     },
     {
       "id": 84,
@@ -5918,16 +5918,16 @@
       "Review / approval": 19,
       "Self-serve / trial": 53,
       "Outreach": 6,
-      "Unresolved": 5,
-      "Other conditions": 2
+      "Unresolved": 6,
+      "Edition-dependent": 1
     },
     "conditional_gates": {
       "Paid / admin": 13,
       "Review / approval": 13,
       "Outreach": 6,
       "Self-serve / trial": 3,
-      "Unresolved": 3,
-      "Other conditions": 2
+      "Unresolved": 4,
+      "Edition-dependent": 1
     },
     "official_mcp": 57,
     "sources": 276,
