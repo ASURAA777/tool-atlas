@@ -68,8 +68,9 @@ def build():
             w.writerow([r['id'],r['name'],r['category'],r['description'],'; '.join(r['auth']),r['access']['sandbox'],r['access']['production'],r['gate_group'],'; '.join(r['api']['style']),r['api']['breadth'],r['mcp']['status'],r['verdict'],r['blocker'],r['confidence'],'; '.join(dict.fromkeys(c['url'] for c in r['claims']))])
     (dist/'summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
     shutil.copy2(ROOT/'README.md',dist/'README.md')
+    shutil.copy2(ROOT/'IMPLEMENTATION.md',dist/'IMPLEMENTATION.md')
     with zipfile.ZipFile(dist/'source.zip','w',zipfile.ZIP_DEFLATED) as archive:
-        for name in ['research.py','README.md','.gitignore']:
+        for name in ['research.py','README.md','IMPLEMENTATION.md','.gitignore']:
             archive.write(ROOT/name,name)
         for folder in ['data','src','tests']:
             for path in sorted((ROOT/folder).rglob('*')):

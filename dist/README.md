@@ -4,6 +4,8 @@
 
 The hosted case study is public and can be opened by reviewers.
 
+For architecture, setup, pipeline behavior and verification details, read the [implementation and working guide](IMPLEMENTATION.md).
+
 An evidence-first case study of 100 requested app integrations. The standalone HTML page explains the findings, lets a reviewer inspect field-level sources, and separates agent checks from pending human verification.
 
 ## Run locally in under a minute
