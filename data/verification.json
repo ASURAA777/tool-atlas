@@ -1,0 +1,1459 @@
+{
+  "checked_at": "2026-11-23",
+  "method": "Targeted, non-random agent audit of 15 apps across all 10 categories (five fields each). Fourteen apps were checked by a different research agent; GitHub was rechecked by its original agent and is labeled same_agent. The separate human-review sample is randomized within category with a fixed seed. Unknown MCP findings newly resolved by sources are evidence enrichments, not prior false absence claims. Before/after ratios measure documented support within these 75 agent judgments, not population accuracy. No human reviewer or authenticated API test is claimed.",
+  "checks": [
+    {
+      "id": 4,
+      "app": "Attio",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "OAuth2",
+        "token"
+      ],
+      "after": [
+        "OAuth2",
+        "token"
+      ],
+      "url": "https://attio.com/platform/developers?_rsc=1r34m",
+      "reason": "Platform documents OAuth2; separate key help confirms scoped access tokens.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 4,
+      "app": "Attio",
+      "field": "access",
+      "result": "unresolved",
+      "before": {
+        "sandbox": "API keys available on all plans; workspace admin creates them.",
+        "production": "Scoped workspace access; public app listing reviewed.",
+        "gate": "admin"
+      },
+      "after": {
+        "sandbox": "API keys available on all plans; workspace admin creates them.",
+        "production": "Scoped workspace access; public app listing reviewed.",
+        "gate": "admin"
+      },
+      "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+      "reason": "All-plan admin-created keys supported. Public app listing review clause was not independently confirmed; preserve uncertainty.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 4,
+      "app": "Attio",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Broad records, lists, notes and workflow integrations."
+      },
+      "after": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Broad records, lists, notes and workflow integrations."
+      },
+      "url": "https://attio.com/platform/developers?_rsc=1r34m",
+      "reason": "Developer platform explicitly documents read/write REST, webhooks and CRM data integration.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 4,
+      "app": "Attio",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://attio.com/platform/developers?_rsc=1r34m",
+        "note": "Official OAuth MCP for workspace data."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://attio.com/platform/developers?_rsc=1r34m",
+        "note": "Official OAuth MCP for workspace data."
+      },
+      "url": "https://attio.com/platform/developers?_rsc=1r34m",
+      "reason": "Official platform describes OAuth MCP structured read/write tools.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 4,
+      "app": "Attio",
+      "field": "verdict",
+      "result": "supported",
+      "before": "ready",
+      "after": "ready",
+      "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+      "reason": "Ready is a research inference from all-plan scoped key availability; no credential or endpoint was tested.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "OAuth2",
+        "token (legacy)"
+      ],
+      "after": [
+        "OAuth2",
+        "token (legacy)"
+      ],
+      "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+      "reason": "Legacy token creation stopped October 2026; OAuth is the documented new-build path.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Self-serve 14-day trial; sponsored developer accounts require request.",
+        "production": "Paid instance; global OAuth needed for multiple customer integrations.",
+        "gate": "account_and_distribution"
+      },
+      "after": {
+        "sandbox": "Self-serve 14-day trial; sponsored developer accounts require request.",
+        "production": "Paid instance; global OAuth needed for multiple customer integrations.",
+        "gate": "account_and_distribution"
+      },
+      "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+      "reason": "Indexed official guide confirms 14-day trial and requested sponsored accounts; security guide confirms global OAuth distribution gate.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Broad tickets, users, organizations, help center and voice APIs."
+      },
+      "after": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Broad tickets, users, organizations, help center and voice APIs."
+      },
+      "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+      "reason": "Migration guide covers Ticketing, Help Center and Voice; security guide shows HTTP JSON users endpoint.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "field": "mcp",
+      "result": "corrected",
+      "before": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No supported MCP finding in this bounded research pass; not evidence of absence."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+        "note": "Official Zendesk MCP through Bridge EAP; participation and admin-configured connection required; OAuth authentication."
+      },
+      "url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+      "reason": "Verification improvement: unknown becomes official EAP. Original not_verified did not assert absence. EAP participation and configured connection are required.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "evidence_enrichment"
+    },
+    {
+      "id": 11,
+      "app": "Zendesk",
+      "field": "verdict",
+      "result": "supported",
+      "before": "conditional",
+      "after": "conditional",
+      "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "reason": "Conditional remains appropriate for account access and multi-customer OAuth approval. MCP additionally requires EAP access.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 25,
+      "app": "Pumble",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "API key"
+      ],
+      "after": [
+        "API key"
+      ],
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "reason": "API addon key authentication supported. Separate MCP guide uses app key plus user or bot token.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 25,
+      "app": "Pumble",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "API addon available on all plans.",
+        "production": "Workspace addon installation and per-user API key.",
+        "gate": "self_serve"
+      },
+      "after": {
+        "sandbox": "API addon available on all plans.",
+        "production": "Workspace addon installation and per-user API key.",
+        "gate": "self_serve"
+      },
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "reason": "Help guide permits owners/admins/members on all plans; API addon installation required.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 25,
+      "app": "Pumble",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Focused messages, replies, reactions, channels and message listing."
+      },
+      "after": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Focused messages, replies, reactions, channels and message listing."
+      },
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "reason": "HTTP addon supports messaging, replies, reactions and channel listing.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 25,
+      "app": "Pumble",
+      "field": "mcp",
+      "result": "corrected",
+      "before": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No supported MCP finding in this bounded research pass; not evidence of absence."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+        "note": "Official scoped messaging MCP; create custom addon and supply app key plus user or bot token."
+      },
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+      "reason": "Verification improvement: unknown becomes official. Original not_verified did not assert absence. Custom addon scopes and app/user-or-bot credentials are documented.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "evidence_enrichment"
+    },
+    {
+      "id": 25,
+      "app": "Pumble",
+      "field": "verdict",
+      "result": "supported",
+      "before": "ready",
+      "after": "ready",
+      "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "reason": "Ready is inferred from self-serve all-plan addon and key generation instructions; not an executed signup test.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 71,
+      "app": "Notion",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "Internal integration token",
+        "Personal access token",
+        "OAuth2"
+      ],
+      "after": [
+        "Internal integration token",
+        "Personal access token",
+        "OAuth2"
+      ],
+      "url": "https://developers.notion.com/guides/authorization/overview",
+      "reason": "Guide explicitly distinguishes internal static tokens, user PATs and OAuth2.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 71,
+      "app": "Notion",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Self-serve free workspace; owner can create internal connection.",
+        "production": "Explicit page sharing and workspace permissions; enterprise controls may apply.",
+        "gate": "self_serve"
+      },
+      "after": {
+        "sandbox": "Self-serve free workspace; owner can create internal connection.",
+        "production": "Explicit page sharing and workspace permissions; enterprise controls may apply.",
+        "gate": "self_serve"
+      },
+      "url": "https://www.notion.com/help/create-integrations-with-the-notion-api",
+      "reason": "Help confirms Free/Plus workspace owners can create internal connections; explicit content permissions remain required.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 71,
+      "app": "Notion",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Pages, blocks, databases/data sources, views, comments and users."
+      },
+      "after": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Pages, blocks, databases/data sources, views, comments and users."
+      },
+      "url": "https://developers.notion.com/reference/create-view",
+      "reason": "Reference documents POST /v1/views with database/data-source IDs; documentation navigation includes pages, blocks and comments.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 71,
+      "app": "Notion",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://developers.notion.com/guides/mcp/overview",
+        "note": "Official MCP supports workspace search, page editing and databases."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://developers.notion.com/guides/mcp/overview",
+        "note": "Official MCP supports workspace search, page editing and databases."
+      },
+      "url": "https://developers.notion.com/guides/mcp/overview",
+      "reason": "Vendor guide describes workspace search, page creation/editing and database management.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 71,
+      "app": "Notion",
+      "field": "verdict",
+      "result": "supported",
+      "before": "ready",
+      "after": "ready",
+      "url": "https://developers.notion.com/guides/authorization/overview",
+      "reason": "Ready is a document-based inference for a permitted workspace; no credentials generated.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "Bearer API key"
+      ],
+      "after": [
+        "Bearer API key"
+      ],
+      "url": "https://www.ipayx.ai/docs/api",
+      "reason": "Indexed official API guide specifies bearer keys. Public MCP tools are a separately stated exception.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "field": "access",
+      "result": "unresolved",
+      "before": {
+        "sandbox": "Official MCP advertises limited public rate/audit tools; paid-key terms not fully established.",
+        "production": "Docs describe dashboard-generated production keys but API guide also directs to support.",
+        "gate": "access_unclear"
+      },
+      "after": {
+        "sandbox": "Official MCP advertises limited public rate/audit tools; paid-key terms not fully established.",
+        "production": "Docs describe dashboard-generated production keys but API guide also directs to support.",
+        "gate": "access_unclear"
+      },
+      "url": "https://www.ipayx.ai/developers",
+      "reason": "Public MCP limits and dashboard keys are advertised, but paid-key eligibility and current onboarding remain unresolved. Direct API-doc open rendered a shell; indexed text was used.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Narrow audit, rates, document audit and report surface."
+      },
+      "after": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Narrow audit, rates, document audit and report surface."
+      },
+      "url": "https://www.ipayx.ai/docs/api",
+      "reason": "Indexed official guide advertises REST audit, rates and document endpoints. Live contract is untested and base paths conflict with developer page.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://www.ipayx.ai/developers",
+        "note": "Official remote MCP with public limited tools and API-key full reports."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://www.ipayx.ai/developers",
+        "note": "Official remote MCP with public limited tools and API-key full reports."
+      },
+      "url": "https://www.ipayx.ai/developers",
+      "reason": "Official developer page publishes remote MCP and distinguishes public tools from key-protected full reports.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 85,
+      "app": "iPayX",
+      "field": "verdict",
+      "result": "supported",
+      "before": "conditional",
+      "after": "conditional",
+      "url": "https://www.ipayx.ai/developers",
+      "reason": "Conditional correctly preserves conflicting official base paths and untested key access; no readiness upgrade justified.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "OAuth2"
+      ],
+      "after": [
+        "OAuth2"
+      ],
+      "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+      "reason": "Current migration guide ties access to OAuth credentials; legacy developer tokens were sunset September 9, 2026.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Cloud project Test access is available for test accounts.",
+        "production": "Production requires an approved Cloud project access level and authorized Ads account.",
+        "gate": "approval"
+      },
+      "after": {
+        "sandbox": "Cloud project Test access is available for test accounts.",
+        "production": "Production requires an approved Cloud project access level and authorized Ads account.",
+        "gate": "approval"
+      },
+      "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+      "reason": "Test access is available on enablement; production Explorer access requires an application, often approved automatically.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST",
+          "gRPC"
+        ],
+        "breadth": "Broad: campaigns, ads, assets, budgets and reporting."
+      },
+      "after": {
+        "style": [
+          "REST",
+          "gRPC"
+        ],
+        "breadth": "Broad: campaigns, ads, assets, budgets and reporting."
+      },
+      "url": "https://developers.google.com/google-ads/api/rest/overview",
+      "reason": "REST overview explicitly supports gRPC and REST. Independently opened introduction also documents broad campaign, budget, asset and reporting operations.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "note": "Official server supports reads plus limited asset/video/label mutations; it does not create or pause campaigns."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+        "note": "Official server supports reads plus limited asset/video/label mutations; it does not create or pause campaigns."
+      },
+      "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+      "reason": "Official server has reads and limited asset/video/label writes; campaign mutations are outside its stated tool scope.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 31,
+      "app": "Google Ads",
+      "field": "verdict",
+      "result": "supported",
+      "before": "conditional",
+      "after": "conditional",
+      "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+      "reason": "Conditional is consistent with production access approval; this is documentation-based feasibility, not successful credential provisioning.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis",
+      "field": "auth",
+      "result": "unresolved",
+      "before": [
+        "Unknown"
+      ],
+      "after": [
+        "Unknown"
+      ],
+      "url": "https://www.fanbasis.com/auth/setup/signup",
+      "reason": "Independent official-domain search found signup but no usable API credential documentation; homepage returned 403. Unknown is retained, not verified as absence.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis",
+      "field": "access",
+      "result": "unresolved",
+      "before": {
+        "sandbox": "Seller signup exists; developer credential path not verified.",
+        "production": "Public API eligibility and authorization unresolved.",
+        "gate": "unknown"
+      },
+      "after": {
+        "sandbox": "Seller signup exists; developer credential path not verified.",
+        "production": "Public API eligibility and authorization unresolved.",
+        "gate": "unknown"
+      },
+      "url": "https://www.fanbasis.com/auth/setup/signup",
+      "reason": "Independent official-domain search found signup but no usable API credential documentation; homepage returned 403. Unknown is retained, not verified as absence.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis",
+      "field": "api",
+      "result": "unresolved",
+      "before": {
+        "style": [
+          "Unknown"
+        ],
+        "breadth": "No readable primary API documentation found in bounded search."
+      },
+      "after": {
+        "style": [
+          "Unknown"
+        ],
+        "breadth": "No readable primary API documentation found in bounded search."
+      },
+      "url": "https://www.fanbasis.com/auth/setup/signup",
+      "reason": "Independent official-domain search found signup but no usable API credential documentation; homepage returned 403. Unknown is retained, not verified as absence.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis",
+      "field": "mcp",
+      "result": "unresolved",
+      "before": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No MCP implementation verified in this bounded pass."
+      },
+      "after": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No MCP implementation verified in this bounded pass."
+      },
+      "url": "https://www.fanbasis.com/auth/setup/signup",
+      "reason": "Independent official-domain search found signup but no usable API credential documentation; homepage returned 403. Unknown is retained, not verified as absence.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 50,
+      "app": "fanbasis",
+      "field": "verdict",
+      "result": "unresolved",
+      "before": "unknown",
+      "after": "unknown",
+      "url": "https://www.fanbasis.com/auth/setup/signup",
+      "reason": "Independent official-domain search found signup but no usable API credential documentation; homepage returned 403. Unknown is retained, not verified as absence.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "None"
+      ],
+      "after": [
+        "None"
+      ],
+      "url": "https://github.com/sherlock-project/sherlock",
+      "reason": "Documented local CLI invocation requires a username, with no vendor credential.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Install open-source CLI locally; no vendor API credentials.",
+        "production": "Local execution; target websites can fail, rate-limit or change.",
+        "gate": "self_hosted"
+      },
+      "after": {
+        "sandbox": "Install open-source CLI locally; no vendor API credentials.",
+        "production": "Local execution; target websites can fail, rate-limit or change.",
+        "gate": "self_hosted"
+      },
+      "url": "https://github.com/sherlock-project/sherlock",
+      "reason": "Official repository provides local installation paths. External target-site reliability is not guaranteed.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "CLI"
+        ],
+        "breadth": "Single focused username-search command with CSV/XLSX output."
+      },
+      "after": {
+        "style": [
+          "CLI"
+        ],
+        "breadth": "Single focused username-search command with CSV/XLSX output."
+      },
+      "url": "https://github.com/sherlock-project/sherlock",
+      "reason": "README documents command-line usage and CSV/XLSX output flags; no hosted REST service is assumed.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock",
+      "field": "mcp",
+      "result": "corrected",
+      "before": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No MCP implementation verified in this bounded pass."
+      },
+      "after": {
+        "status": "community",
+        "url": "https://github.com/qKitNp/sherlock_mcp",
+        "note": "Community FastMCP wrapper for Sherlock username search; repository existence verified, not installed or runtime-tested."
+      },
+      "url": "https://github.com/qKitNp/sherlock_mcp",
+      "reason": "Evidence enrichment: a community author repository documents a Sherlock FastMCP wrapper. Prior not_verified was uncertainty, not a false no-MCP claim.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "evidence_enrichment"
+    },
+    {
+      "id": 58,
+      "app": "Sherlock",
+      "field": "verdict",
+      "result": "supported",
+      "before": "ready",
+      "after": "ready",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "reason": "A constrained local CLI skill remains feasible; ready is not a claim of hosted-service access or runtime validation.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "API key"
+      ],
+      "after": [
+        "API key"
+      ],
+      "url": "https://docs.consensus.app/api-get-started",
+      "reason": "Technical quickstart documents a self-created key passed in x-api-key. This supports REST auth; MCP OAuth is not established here.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "field": "access",
+      "result": "corrected",
+      "before": {
+        "sandbox": "Key creation is self-service; confirmed API inclusion on paid plans.",
+        "production": "Monthly API and MCP quota depends on subscription tier.",
+        "gate": "paid"
+      },
+      "after": {
+        "sandbox": "Self-service Free plan includes 30 shared API/MCP calls per month; create an API key in the account dashboard.",
+        "production": "Free quota is available; paid tiers increase shared monthly quota and can enable billed additional usage.",
+        "gate": "self_serve"
+      },
+      "url": "https://docs.consensus.app/api-get-started",
+      "reason": "Actual classification error: paid-plan inclusion was inferred as a paid-only gate. Technical quickstart explicitly includes Free accounts with 30 calls monthly.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "classification_correction"
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST",
+          "MCP"
+        ],
+        "breadth": "Research search plus documented research-agent and library capabilities."
+      },
+      "after": {
+        "style": [
+          "REST",
+          "MCP"
+        ],
+        "breadth": "Research search plus documented research-agent and library capabilities."
+      },
+      "url": "https://www.consensus.app/home/api/",
+      "reason": "Vendor API overview describes scholarly search, research threads and library capabilities, plus MCP.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://www.consensus.app/home/api/",
+        "note": "Vendor documentation confirms an MCP."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://www.consensus.app/home/api/",
+        "note": "Vendor documentation confirms an MCP."
+      },
+      "url": "https://www.consensus.app/home/mcp/",
+      "reason": "Vendor publishes an MCP product and configuration route; its existence is independently supported.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 94,
+      "app": "Consensus",
+      "field": "verdict",
+      "result": "corrected",
+      "before": "conditional",
+      "after": "ready",
+      "url": "https://docs.consensus.app/api-get-started",
+      "reason": "Derived verdict correction: documented self-service Free API access clears the paid-only barrier for a small prototype. Monthly quota still limits scale.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "classification_correction"
+    },
+    {
+      "id": 100,
+      "app": "Grain",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "Token",
+        "OAuth2"
+      ],
+      "after": [
+        "Token",
+        "OAuth2"
+      ],
+      "url": "https://developers.grain.com/authentication.html",
+      "reason": "Official authentication guide distinguishes personal/workspace bearer tokens and OAuth2 flows.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 100,
+      "app": "Grain",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Personal token available on every plan including Free; no dedicated sandbox.",
+        "production": "Personal API self-service; workspace token needs Business/Enterprise and admin.",
+        "gate": "self_serve"
+      },
+      "after": {
+        "sandbox": "Personal token available on every plan including Free; no dedicated sandbox.",
+        "production": "Personal API self-service; workspace token needs Business/Enterprise and admin.",
+        "gate": "self_serve"
+      },
+      "url": "https://support.grain.com/en/articles/15507288-grain-api",
+      "reason": "Personal API tokens are available on every plan including Free; workspace tokens require Business/Enterprise and admin. No dedicated sandbox is offered.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 100,
+      "app": "Grain",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST",
+          "MCP"
+        ],
+        "breadth": "Recordings, transcripts, notes, tags, uploads, sharing and webhooks."
+      },
+      "after": {
+        "style": [
+          "REST",
+          "MCP"
+        ],
+        "breadth": "Recordings, transcripts, notes, tags, uploads, sharing and webhooks."
+      },
+      "url": "https://support.grain.com/en/articles/15507288-grain-api",
+      "reason": "Official guide covers meeting data, transcript/notes reads, uploads, metadata, downloads, sharing and webhooks.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 100,
+      "app": "Grain",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+        "note": "Vendor documentation confirms an MCP."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+        "note": "Vendor documentation confirms an MCP."
+      },
+      "url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+      "reason": "Vendor documents official MCP; core tools are on every plan, with some sales/workspace tools gated.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 100,
+      "app": "Grain",
+      "field": "verdict",
+      "result": "supported",
+      "before": "ready",
+      "after": "ready",
+      "url": "https://support.grain.com/en/articles/15507288-grain-api",
+      "reason": "Personal API access supports readiness; workspace-wide paid/admin restrictions remain explicit. Credentials were not provisioned.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "OAuth2"
+      ],
+      "after": [
+        "OAuth2"
+      ],
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "reason": "Bearer user access token shown in request examples; credential must represent licensed user.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Enterprise license and IAM setup required; free consumer UI is not API eligibility.",
+        "production": "Licensed Gemini Notebook Enterprise users with Cloud NotebookLM User role.",
+        "gate": "paid_admin"
+      },
+      "after": {
+        "sandbox": "Enterprise license and IAM setup required; free consumer UI is not API eligibility.",
+        "production": "Licensed Gemini Notebook Enterprise users with Cloud NotebookLM User role.",
+        "gate": "paid_admin"
+      },
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "reason": "Prerequisites explicitly require assigned enterprise license and Cloud NotebookLM User role.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Notebook create/get/list/delete/share; enterprise notebook management."
+      },
+      "after": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Notebook create/get/list/delete/share; enterprise notebook management."
+      },
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "reason": "Preview REST methods cover create, get, listRecentlyViewed, batchDelete and share.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM",
+      "field": "mcp",
+      "result": "unresolved",
+      "before": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No official MCP verified in this bounded research pass."
+      },
+      "after": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No official MCP verified in this bounded research pass."
+      },
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "reason": "No matching official NotebookLM Enterprise MCP established; Gemini Enterprise consuming custom MCP is a different capability.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 91,
+      "app": "NotebookLM",
+      "field": "verdict",
+      "result": "supported",
+      "before": "conditional: Enterprise license, project setup and IAM approval.",
+      "after": "conditional: Enterprise license, project setup and IAM approval.",
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+      "reason": "Conditional toolkit verdict follows documented licensed-user and IAM prerequisites; authenticated execution remains untested.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 93,
+      "app": "Fathom",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "API key",
+        "OAuth2"
+      ],
+      "after": [
+        "API key",
+        "OAuth2"
+      ],
+      "url": "https://developers.fathom.ai/quickstart",
+      "reason": "Quickstart shows X-Api-Key; FAQ confirms Bearer for OAuth.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 93,
+      "app": "Fathom",
+      "field": "access",
+      "result": "corrected",
+      "before": {
+        "sandbox": "Self-generated personal API key; plan eligibility documented in FAQ.",
+        "production": "Personal use via key; public OAuth apps are subject to review.",
+        "gate": "app_review"
+      },
+      "after": {
+        "sandbox": "Self-serve API keys and webhooks included on all plans, including Free.",
+        "production": "Personal/internal integrations use per-user keys; public OAuth apps are subject to review.",
+        "gate": "self_serve"
+      },
+      "url": "https://developers.fathom.ai/faq",
+      "reason": "Baseline left entitlement implicit and labeled whole app review-gated. FAQ establishes all-plan self-serve personal API; review only applies to public OAuth apps.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "classification_correction"
+    },
+    {
+      "id": 93,
+      "app": "Fathom",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Meetings, transcripts, summaries and webhooks."
+      },
+      "after": {
+        "style": [
+          "REST"
+        ],
+        "breadth": "Meetings, transcripts, summaries and webhooks."
+      },
+      "url": "https://developers.fathom.ai/faq",
+      "reason": "Meetings, recordings/transcripts/summaries and webhooks documented. OAuth summary/transcript endpoints differ from key-based list options.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 93,
+      "app": "Fathom",
+      "field": "mcp",
+      "result": "corrected",
+      "before": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No official MCP verified in this bounded research pass."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://www.fathom.ai/features/mcp-server",
+        "note": "Official https://api.fathom.ai/mcp server is available on every Fathom plan, including Free; meeting permissions are inherited."
+      },
+      "url": "https://www.fathom.ai/features/mcp-server",
+      "reason": "New primary vendor page explicitly provides official MCP endpoint and confirms Free-plan access.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "evidence_enrichment"
+    },
+    {
+      "id": 93,
+      "app": "Fathom",
+      "field": "verdict",
+      "result": "corrected",
+      "before": "conditional: Public app review; personal API access is a simpler path.",
+      "after": "ready: No core personal-toolkit access blocker; public OAuth distribution requires review and private meetings remain user-scoped.",
+      "url": "https://developers.fathom.ai/faq",
+      "reason": "Personal/internal toolkit is immediately buildable with free self-serve keys, consistent with this dataset's ready rubric; public app review retained.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "classification_correction"
+    },
+    {
+      "id": 96,
+      "app": "Devin",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "API key",
+        "Token"
+      ],
+      "after": [
+        "API key",
+        "Token"
+      ],
+      "url": "https://docs.devin.ai/api-reference/authentication",
+      "reason": "Current principal-token model documents service-user API keys and human PATs using Bearer credentials.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 96,
+      "app": "Devin",
+      "field": "access",
+      "result": "unresolved",
+      "before": {
+        "sandbox": "Account and credential permissions required; free API trial not verified.",
+        "production": "Service-user credentials and organization permissions; account usage applies.",
+        "gate": "paid_admin"
+      },
+      "after": {
+        "sandbox": "Devin account and credential permissions required; free API entitlement not verified.",
+        "production": "Service-user key or PAT with organization permissions; exact paid-plan requirement remains unverified.",
+        "gate": "admin_approval"
+      },
+      "url": "https://devin.ai/pricing",
+      "reason": "Account/admin conditions are proven, but baseline paid_admin label lacks exact API-plan entitlement proof. Removed categorical paid inference and retained unresolved status.",
+      "after_supported": false,
+      "review_mode": "independent_agent",
+      "change_kind": "unresolved"
+    },
+    {
+      "id": 96,
+      "app": "Devin",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST",
+          "MCP"
+        ],
+        "breadth": "Sessions, playbooks, knowledge, scheduling and repository documentation."
+      },
+      "after": {
+        "style": [
+          "REST",
+          "MCP"
+        ],
+        "breadth": "Sessions, playbooks, knowledge, scheduling and repository documentation."
+      },
+      "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "reason": "Official tool catalog covers sessions, playbooks, knowledge, schedules and repository docs; auth page also documents REST v3.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 96,
+      "app": "Devin",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "note": "Vendor documentation confirms an MCP."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+        "note": "Vendor documentation confirms an MCP."
+      },
+      "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+      "reason": "Official server and /mcp endpoint explicitly documented. Current keys resolve org automatically or require X-Org-Id.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 96,
+      "app": "Devin",
+      "field": "verdict",
+      "result": "supported",
+      "before": "conditional: Account entitlement, service-user role and API version compatibility.",
+      "after": "conditional: Account entitlement, service-user role and API version compatibility.",
+      "url": "https://docs.devin.ai/api-reference/authentication",
+      "reason": "Conditional remains appropriate: permissions and credential/version configuration required; free entitlement is unresolved.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "None"
+      ],
+      "after": [
+        "None"
+      ],
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "reason": "Local CLI install/render instructions need no vendor account or credential.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Free local open-source installation.",
+        "production": "Local execution; browser/runtime dependencies.",
+        "gate": "self_serve"
+      },
+      "after": {
+        "sandbox": "Free local open-source installation.",
+        "production": "Local execution; browser/runtime dependencies.",
+        "gate": "self_serve"
+      },
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "reason": "Public MIT-licensed source and npm/Docker usage establish local self-serve access.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "CLI"
+        ],
+        "breadth": "Diagram rendering to SVG, PNG and PDF."
+      },
+      "after": {
+        "style": [
+          "CLI"
+        ],
+        "breadth": "Diagram rendering to SVG, PNG and PDF."
+      },
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "reason": "README describes local mmdc inputs and SVG/PNG/PDF outputs, not a hosted REST API.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI",
+      "field": "mcp",
+      "result": "corrected",
+      "before": {
+        "status": "not_verified",
+        "url": null,
+        "note": "No official MCP verified in this bounded research pass."
+      },
+      "after": {
+        "status": "community",
+        "url": "https://github.com/andrewginns/mermaid-mcp-server",
+        "note": "Community Python wrapper explicitly calls official Mermaid CLI for validation and PNG rendering; reviewed documentation only, not installed or tested."
+      },
+      "url": "https://github.com/andrewginns/mermaid-mcp-server",
+      "reason": "Opened community repository confirming an MCP wrapper around the exact official CLI. Does not establish an official mermaid-js MCP.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "evidence_enrichment"
+    },
+    {
+      "id": 98,
+      "app": "Mermaid CLI",
+      "field": "verdict",
+      "result": "supported",
+      "before": "ready: Wrap a local command safely; it is not a hosted REST service.",
+      "after": "ready: Wrap a local command safely; it is not a hosted REST service.",
+      "url": "https://github.com/mermaid-js/mermaid-cli",
+      "reason": "Local CLI is directly wrappable as an agent tool; browser/runtime dependencies remain.",
+      "after_supported": true,
+      "review_mode": "independent_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "field": "auth",
+      "result": "supported",
+      "before": [
+        "Personal access token",
+        "OAuth2",
+        "GitHub App installation token"
+      ],
+      "after": [
+        "Personal access token",
+        "OAuth2",
+        "GitHub App installation token"
+      ],
+      "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "reason": "Reopened docs confirm PAT, GitHub App and OAuth token paths.",
+      "after_supported": true,
+      "review_mode": "same_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "field": "access",
+      "result": "supported",
+      "before": {
+        "sandbox": "Self-serve GitHub account and personal token.",
+        "production": "Account permissions apply; organization policies may require approval.",
+        "gate": "self_serve"
+      },
+      "after": {
+        "sandbox": "Self-serve GitHub account and personal token.",
+        "production": "Account permissions apply; organization policies may require approval.",
+        "gate": "self_serve"
+      },
+      "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+      "reason": "Official MCP is available regardless of plan, with underlying feature licensing and permissions retained.",
+      "after_supported": true,
+      "review_mode": "same_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "field": "api",
+      "result": "supported",
+      "before": {
+        "style": [
+          "REST",
+          "GraphQL"
+        ],
+        "breadth": "Broad repository, issue, pull-request, workflow and organization operations."
+      },
+      "after": {
+        "style": [
+          "REST",
+          "GraphQL"
+        ],
+        "breadth": "Broad repository, issue, pull-request, workflow and organization operations."
+      },
+      "url": "https://docs.github.com/en/graphql",
+      "reason": "Reopened GraphQL overview confirms structured query/mutation API in addition to documented REST.",
+      "after_supported": true,
+      "review_mode": "same_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "field": "mcp",
+      "result": "supported",
+      "before": {
+        "status": "official",
+        "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+        "note": "Official MCP is available on all plans; individual paid features retain their requirements."
+      },
+      "after": {
+        "status": "official",
+        "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+        "note": "Official MCP is available on all plans; individual paid features retain their requirements."
+      },
+      "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+      "reason": "GitHub docs explicitly call the server provided and maintained by GitHub.",
+      "after_supported": true,
+      "review_mode": "same_agent",
+      "change_kind": "supported"
+    },
+    {
+      "id": 61,
+      "app": "GitHub",
+      "field": "verdict",
+      "result": "supported",
+      "before": "ready: No general access blocker; scope tokens and respect organization policy.",
+      "after": "ready: No general access blocker; scope tokens and respect organization policy.",
+      "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "reason": "Self-serve personal token and documented public APIs substantiate ready for scoped personal automation.",
+      "after_supported": true,
+      "review_mode": "same_agent",
+      "change_kind": "supported"
+    }
+  ]
+}

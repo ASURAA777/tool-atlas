@@ -1,0 +1,2450 @@
+[
+  {
+    "url": "https://airtable.com/developers/web/api/authentication",
+    "final_url": "https://airtable.com/developers/web/api/authentication",
+    "http_status": 200,
+    "bytes_sampled": 649482,
+    "sha256_sample": "d301a27647acb3275673d93a1a00852fbbe6b1f2ad2b3786091ce73166815bca",
+    "checked_at": "2026-11-23T13:20:39.689957+00:00",
+    "error": null
+  },
+  {
+    "url": "https://api.docs.dealcloud.com/docs",
+    "final_url": "https://api.docs.dealcloud.com/docs",
+    "http_status": 200,
+    "bytes_sampled": 370571,
+    "sha256_sample": "e52c98ed92767488652ca6d859c27307ebffe8063e4bd0d032fe0cab5d56154c",
+    "checked_at": "2026-11-23T13:20:39.690722+00:00",
+    "error": null
+  },
+  {
+    "url": "https://api.docs.dealcloud.com/docs/apikeys",
+    "final_url": "https://api.docs.dealcloud.com/docs/apikeys",
+    "http_status": 200,
+    "bytes_sampled": 367014,
+    "sha256_sample": "b330feaebea9db5efe83b4881a3bca613f2b342aabd0cc496d216e2645471a02",
+    "checked_at": "2026-11-23T13:20:39.691372+00:00",
+    "error": null
+  },
+  {
+    "url": "https://api.docs.dealcloud.com/docs/token",
+    "final_url": "https://api.docs.dealcloud.com/docs/token",
+    "http_status": 200,
+    "bytes_sampled": 376132,
+    "sha256_sample": "56883f63431c05cd0674bf6fb4c0a73186303965397d0656975c813b8b8bd1f8",
+    "checked_at": "2026-11-23T13:20:39.691589+00:00",
+    "error": null
+  },
+  {
+    "url": "https://api.paygent.tech/docs",
+    "http_status": null,
+    "checked_at": "2026-11-23T13:20:39.691839+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+    "final_url": "https://attio.com/help/reference/apps/generating-an-api-key",
+    "http_status": 200,
+    "bytes_sampled": 570174,
+    "sha256_sample": "fdd16acf2d6f3383973aaa52495516d3c9eb8d6ce3d78c20e57f50065f555aca",
+    "checked_at": "2026-11-23T13:20:39.692021+00:00",
+    "error": null
+  },
+  {
+    "url": "https://attio.com/platform/developers?_rsc=1r34m",
+    "final_url": "https://attio.com/platform/developers?_rsc=1r34m",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "9b79f8717eaf2e7c05b63e2d5f4f65df1d506d816569c7c30297581f52c09936",
+    "checked_at": "2026-11-23T13:20:39.692433+00:00",
+    "error": null
+  },
+  {
+    "url": "https://close.com/crm-trial",
+    "final_url": "https://close.com/crm-trial",
+    "http_status": 200,
+    "bytes_sampled": 86172,
+    "sha256_sample": "0a2f063e507ca7288b1964e12301d79a3b81273e894f2dc04c2642282d824f20",
+    "checked_at": "2026-11-23T13:20:39.692654+00:00",
+    "error": null
+  },
+  {
+    "url": "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions",
+    "final_url": "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions",
+    "http_status": 200,
+    "bytes_sampled": 34715,
+    "sha256_sample": "5619381d4776c5c1a1a0e18b616276d17c5551dbb5ca455c645d33387cddd7d8",
+    "checked_at": "2026-11-23T13:20:39.692875+00:00",
+    "error": null
+  },
+  {
+    "url": "https://core.telegram.org/bots/api",
+    "final_url": "https://core.telegram.org/bots/api",
+    "http_status": 200,
+    "bytes_sampled": 912097,
+    "sha256_sample": "ae6ab6f61321150b4705e349412747abb9531d6c76f1f971d1191e5a61600454",
+    "checked_at": "2026-11-23T13:20:39.693068+00:00",
+    "error": null
+  },
+  {
+    "url": "https://core.telegram.org/bots/features",
+    "final_url": "https://core.telegram.org/bots/features",
+    "http_status": 200,
+    "bytes_sampled": 117106,
+    "sha256_sample": "1db5c555d6202a8121494fc49307955e54ece47201c570ebb8482ad33dafa881",
+    "checked_at": "2026-11-23T13:20:40.581397+00:00",
+    "error": null
+  },
+  {
+    "url": "https://dataforseo.com/dev-starter-kit",
+    "final_url": "https://dataforseo.com/dev-starter-kit",
+    "http_status": 200,
+    "bytes_sampled": 627461,
+    "sha256_sample": "ea5565bf9ddc3564268cd99ac7fa33fcd66a19febbe92f76f7623186424f1b1c",
+    "checked_at": "2026-11-23T13:20:40.972060+00:00",
+    "error": null
+  },
+  {
+    "url": "https://dataforseo.com/model-context-protocol",
+    "final_url": "https://dataforseo.com/model-context-protocol",
+    "http_status": 200,
+    "bytes_sampled": 636064,
+    "sha256_sample": "7c7e0dd9c136fb6b69159082c11a8971886532e98d436b3665a9baca3f18c4ec",
+    "checked_at": "2026-11-23T13:20:40.974302+00:00",
+    "error": null
+  },
+  {
+    "url": "https://dataforseo.com/pricing",
+    "final_url": "https://dataforseo.com/pricing",
+    "http_status": 200,
+    "bytes_sampled": 579917,
+    "sha256_sample": "0d90516d293b441a46938e1e609cbc13eb001fdf5c7191ba94bd394cb859701f",
+    "checked_at": "2026-11-23T13:20:40.975084+00:00",
+    "error": null
+  },
+  {
+    "url": "https://dev.frontapp.com/docs/mcp-server",
+    "final_url": "https://dev.frontapp.com/docs/mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 368493,
+    "sha256_sample": "407e3064364127313c99cdec7b9d3fcf1a8b4c859e8596c13fac55f3646fec1f",
+    "checked_at": "2026-11-23T13:20:41.342480+00:00",
+    "error": null
+  },
+  {
+    "url": "https://dev.frontapp.com/docs/welcome",
+    "final_url": "https://dev.frontapp.com/docs/welcome",
+    "http_status": 200,
+    "bytes_sampled": 212653,
+    "sha256_sample": "ea2055175646bc59dbf93f95d4abb17bb39f1b923a84132ee50c812a555ace0b",
+    "checked_at": "2026-11-23T13:20:41.578493+00:00",
+    "error": null
+  },
+  {
+    "url": "https://dev.frontapp.com/reference/introduction",
+    "final_url": "https://dev.frontapp.com/reference/introduction",
+    "http_status": 200,
+    "bytes_sampled": 518125,
+    "sha256_sample": "70fe0a125391528dbc4959999a7a6c0b043bf5b454c0e2ff67bc03c3deed77f0",
+    "checked_at": "2026-11-23T13:20:41.717290+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer-docs.amazon/sp-api/docs/tutorial-test-selling-partner-api-endpoints",
+    "final_url": "https://developer-docs.amazon/sp-api/docs/tutorial-test-selling-partner-api-endpoints",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "bbdb65fa3c42bc89427403135748adb5285825d954fbd9581994fa45a344a691",
+    "checked_at": "2026-11-23T13:20:41.790727+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer-docs.amazon/sp-api/lang-en_en/docs/onboarding-step-6-set-up-the-authorization-workflow",
+    "final_url": "https://developer-docs.amazon/sp-api/page/404",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "7a0710ecf32574fbdeb2e2227e34fa94939e3ec41852e173827476c0b0a9d1a6",
+    "checked_at": "2026-11-23T13:20:41.875971+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.adobe.com/commerce/webapi/",
+    "final_url": "https://developer.adobe.com/commerce/webapi/",
+    "http_status": 200,
+    "bytes_sampled": 6607,
+    "sha256_sample": "944e70b3ac8b7089f46084b5803727a742276a4729ded0aaac5e5aa0e54699d3",
+    "checked_at": "2026-11-23T13:20:41.876071+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.adobe.com/commerce/webapi/rest/",
+    "final_url": "https://developer.adobe.com/commerce/webapi/rest/",
+    "http_status": 200,
+    "bytes_sampled": 8385,
+    "sha256_sample": "9260cc5d94a2530549de43bfc35bad5c19f625dc19f6ae03d371c182da0806a6",
+    "checked_at": "2026-11-23T13:20:41.992979+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+    "final_url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+    "http_status": 200,
+    "bytes_sampled": 7447,
+    "sha256_sample": "d46cb6ecc2432e7141713a5ee6cfe7f3fe45e8762226bf3ddbdc2c601cc2b4cb",
+    "checked_at": "2026-11-23T13:20:42.103932+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.aircall.io/docs/authentication",
+    "final_url": "https://developer.aircall.io/docs/authentication",
+    "http_status": 200,
+    "bytes_sampled": 787624,
+    "sha256_sample": "0ad471fc805ff811843a77cad377b280536aef1bd0a78a30d254f7f03280cb9e",
+    "checked_at": "2026-11-23T13:20:42.104413+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.aircall.io/docs/oauth",
+    "final_url": "https://developer.aircall.io/docs/oauth",
+    "http_status": 200,
+    "bytes_sampled": 824910,
+    "sha256_sample": "b8fa9b0b5f1392fa1e11bb2369a3ca56e1e097b56ac76e5b2b064eba593523d2",
+    "checked_at": "2026-11-23T13:20:42.246275+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.atlassian.com/cloud/jira/platform/security-overview/",
+    "final_url": "https://developer.atlassian.com/cloud/jira/platform/security-overview/",
+    "http_status": 200,
+    "bytes_sampled": 232966,
+    "sha256_sample": "3d00a6e2fc761c6562a3d08bf7d116ad99e09fae25f8e2d1502d350ae3959697",
+    "checked_at": "2026-11-23T13:20:42.325530+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.atlassian.com/cloud/jira/software/rest/intro/",
+    "final_url": "https://developer.atlassian.com/cloud/jira/software/rest/intro/",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "c34504352c062da5ac5aae6c525d61a7f46b70c237d4d525b4338c4c62f6d6b6",
+    "checked_at": "2026-11-23T13:20:42.325820+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.brex.com/docs/faq",
+    "final_url": "https://developer.brex.com/docs/faq",
+    "http_status": 200,
+    "bytes_sampled": 377597,
+    "sha256_sample": "e5f208e986bf28bad386dacce6714646791ef1688936e2fc8a66f8e31489099c",
+    "checked_at": "2026-11-23T13:20:42.491239+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.brex.com/guides/authentication",
+    "final_url": "https://developer.brex.com/guides/authentication",
+    "http_status": 200,
+    "bytes_sampled": 348739,
+    "sha256_sample": "441aefc7c51c796f3b550935ced575e654adf707ca6c6ac0016ae8b2712867a6",
+    "checked_at": "2026-11-23T13:20:42.602199+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.brex.com/guides/partner_authentication",
+    "final_url": "https://developer.brex.com/guides/partner_authentication",
+    "http_status": 200,
+    "bytes_sampled": 444737,
+    "sha256_sample": "59b93596bfb162ae246e024b9612b1462abf560f1c3d6db0b7d8a0d75d485fbf",
+    "checked_at": "2026-11-23T13:20:42.603575+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.clickup.com/docs/Getting%20Started",
+    "final_url": "https://developer.clickup.com/docs/Getting%20Started",
+    "http_status": 200,
+    "bytes_sampled": 307620,
+    "sha256_sample": "b772e566fc5d0186ca87dbcfaf4f00e4ccf4d4221aa542ea0eaae0d5f2a77225",
+    "checked_at": "2026-11-23T13:20:42.748933+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.clickup.com/docs/apis-available-by-plan",
+    "final_url": "https://developer.clickup.com/docs/apis-available-by-plan",
+    "http_status": 200,
+    "bytes_sampled": 307536,
+    "sha256_sample": "dfe6f88ec687019ff91c378e33f172ddbc3449f4b3744c237280dfd7d8247708",
+    "checked_at": "2026-11-23T13:20:42.772795+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.clickup.com/docs/authentication",
+    "final_url": "https://developer.clickup.com/docs/authentication",
+    "http_status": 200,
+    "bytes_sampled": 324031,
+    "sha256_sample": "e3d8952c55eb6644687c189bb4fa9b2e4b875abcde8b239d0889d01e9deae517",
+    "checked_at": "2026-11-23T13:20:42.944474+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+    "final_url": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 320253,
+    "sha256_sample": "ec6869edd6f5989aec91fb30cb2fdf97e5e471d8187377e7cd0ebe0cee2f8556",
+    "checked_at": "2026-11-23T13:20:42.945525+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.close.com/api/overview",
+    "final_url": "https://developer.close.com/api/overview",
+    "http_status": 200,
+    "bytes_sampled": 228409,
+    "sha256_sample": "c4cff2293205566bbe478950d20de6a673446c0b6444aab6f597a894ec6a6330",
+    "checked_at": "2026-11-23T13:20:43.106156+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.close.com/integrations/create-an-oauth-app",
+    "final_url": "https://developer.close.com/integrations/create-an-oauth-app",
+    "http_status": 200,
+    "bytes_sampled": 128066,
+    "sha256_sample": "a895b5118d397009e2db967daf2a115e28619b67c4191420d5cc0e4672fc079f",
+    "checked_at": "2026-11-23T13:20:43.161162+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.close.com/mcp/",
+    "final_url": "https://developer.close.com/mcp/",
+    "http_status": 200,
+    "bytes_sampled": 187102,
+    "sha256_sample": "b8e1e2d0d18ed49740100f3e4c46249622265995513b5a1dd983b9e974c33ba1",
+    "checked_at": "2026-11-23T13:20:43.370695+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.gladly.com/rest/",
+    "final_url": "https://developer.gladly.com/rest/",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "34340c0736eb3132c0747904ca2fe6d1e2d720692939133a837a24c15da5d53c",
+    "checked_at": "2026-11-23T13:20:43.456296+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.helpscout.com/",
+    "final_url": "https://developer.helpscout.com/",
+    "http_status": 200,
+    "bytes_sampled": 2991,
+    "sha256_sample": "7ace3e2c8119f7c83e31a49536f704f7ec0f002bc3ec9902bbd7f3ba37266706",
+    "checked_at": "2026-11-23T13:20:43.456414+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.helpscout.com/docs-api/",
+    "final_url": "https://developer.helpscout.com/docs-api/",
+    "http_status": 200,
+    "bytes_sampled": 5291,
+    "sha256_sample": "ce6ab6d7d57950a09c125e3e3c9c3039d205101d182ff7742fbe367a65a10ed1",
+    "checked_at": "2026-11-23T13:20:43.457411+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+    "final_url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+    "http_status": 200,
+    "bytes_sampled": 7727,
+    "sha256_sample": "2c3eb2e6e9274c0bbbc5c505b1be05ea328bdb524087e76f6a0c556e9961d8a2",
+    "checked_at": "2026-11-23T13:20:43.738341+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+    "final_url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "56d04955910c12dd814938d3bdf6bd73d35740c10798e22168aae95d92dd85d0",
+    "checked_at": "2026-11-23T13:20:43.970604+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/get-client-id-and-client-secret",
+    "final_url": "https://developer.intuit.com/app/developer/qbo/docs/get-started/get-client-id-and-client-secret",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "512ff63a4b379abe6021b9262c0db4b3408adb5a56fec78f3f96e84ad3f5f7a8",
+    "checked_at": "2026-11-23T13:20:44.094849+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.monday.com/api-reference/docs/authentication",
+    "final_url": "https://developer.monday.com/api-reference/docs/authentication",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "d62554252d173f98a8cb06c5313331c5145a9bef4303d298e83f2de5d3df8e81",
+    "checked_at": "2026-11-23T13:20:44.162242+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.monday.com/api-reference/docs/build-on-monday-with-ai",
+    "final_url": "https://developer.monday.com/api-reference/docs/build-on-monday-with-ai",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "c11f69a0797553ca3fcbee343a6a4602831cc465bc3a4fa1114f76b86f4c672d",
+    "checked_at": "2026-11-23T13:20:44.196808+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.monday.com/apps/docs/oauth",
+    "final_url": "https://developer.monday.com/apps/docs/oauth",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "1303f17766b3f7588708829c93ab5f9506efe40bf10579e8a73ce03505425b12",
+    "checked_at": "2026-11-23T13:20:44.196911+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.pinterest.com/docs/developer-tools/sandbox/",
+    "final_url": "https://developer.pinterest.com/docs/developer-tools/sandbox/",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "c77ea6e8da3c389755a4545a0e19b96ac23d7d4191ea83e9d049f9b2d0cd73df",
+    "checked_at": "2026-11-23T13:20:44.197438+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+    "final_url": "https://developer.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "456718726bd6b5877247c848289932e535eedd6072e65262b6595bcb9f930c4a",
+    "checked_at": "2026-11-23T13:20:44.497321+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-api-authentication.html",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:44.573222+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:44.675609+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:44.795190+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart.html",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:44.884086+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://developer.vonage.com/en/dashboard/getting-started",
+    "final_url": "https://developer.vonage.com/en/dashboard/getting-started",
+    "http_status": 200,
+    "bytes_sampled": 87627,
+    "sha256_sample": "d071acf33f73e114b4f8524c2754a4699f9fcfebcc084a44eec614123fde3ee1",
+    "checked_at": "2026-11-23T13:20:44.930355+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+    "final_url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+    "http_status": 200,
+    "bytes_sampled": 244050,
+    "sha256_sample": "9d314ce56bbce3b770a9a386f649f4b39863cd6753fa537821ece6c57bd8a4b8",
+    "checked_at": "2026-11-23T13:20:44.944746+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.vonage.com/en/getting-started/overview?source=reports",
+    "final_url": "https://developer.vonage.com/en/getting-started/overview?source=reports",
+    "http_status": 200,
+    "bytes_sampled": 79701,
+    "sha256_sample": "481c3c983c60cc092caed229f3e37eb243d4a83e144111d2a1467b22d7baa592",
+    "checked_at": "2026-11-23T13:20:45.151184+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+    "final_url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+    "http_status": 200,
+    "bytes_sampled": 70100,
+    "sha256_sample": "87ee53a764edb526d8c7952ca6ea0f75b7c708e8d6a4410ca14f7d0a78e95c7c",
+    "checked_at": "2026-11-23T13:20:45.243201+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.xero.com/changelog?rl_entry=f23bc9b7d710",
+    "final_url": "https://developer.xero.com/changelog?rl_entry=f23bc9b7d710",
+    "http_status": 200,
+    "bytes_sampled": 636243,
+    "sha256_sample": "b93f59a04ff44aa87aafcf1a352cc9888073adcbffe787e0d3391442f2a76204",
+    "checked_at": "2026-11-23T13:20:45.244963+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.xero.com/documentation/getting-started-guide/",
+    "final_url": "https://developer.xero.com/documentation/getting-started-guide/",
+    "http_status": 200,
+    "bytes_sampled": 138469,
+    "sha256_sample": "56bab3730b1c71023060f2de1742509f3a7ca9ca392fec068ff81609940e27f9",
+    "checked_at": "2026-11-23T13:20:45.610049+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+    "final_url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+    "http_status": 200,
+    "bytes_sampled": 138578,
+    "sha256_sample": "83e53cf0ec77cda189bfc89dfab82793621f46dbd005288b03ca1269b845a248",
+    "checked_at": "2026-11-23T13:20:45.871548+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.xero.com/documentation/guides/oauth2/tenants/",
+    "final_url": "https://developer.xero.com/documentation/guides/oauth2/tenants/",
+    "http_status": 200,
+    "bytes_sampled": 138624,
+    "sha256_sample": "9c059b388170d8cee6461fad34ca4e9a993d43acd04304aa5d0ca83146f89982",
+    "checked_at": "2026-11-23T13:20:45.947879+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "final_url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "http_status": 200,
+    "bytes_sampled": 132062,
+    "sha256_sample": "1de4ec1d52c4481f619fdb82b4858b5976058bc4c06c234a0a264cc3cc2b506f",
+    "checked_at": "2026-11-23T13:20:45.948105+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+    "final_url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+    "http_status": 200,
+    "bytes_sampled": 114223,
+    "sha256_sample": "7c68cb458d8a2415d391c61292584292e53579252a9471d3f3d934479709cfa2",
+    "checked_at": "2026-11-23T13:20:45.948184+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+    "final_url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+    "http_status": 200,
+    "bytes_sampled": 691006,
+    "sha256_sample": "8bd38192df00ca412754234b2c2f1b5797ffab11aec25fc3c41de86718b8c89a",
+    "checked_at": "2026-11-23T13:20:46.190208+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.asana.com/docs/authentication",
+    "final_url": "https://developers.asana.com/docs/authentication",
+    "http_status": 200,
+    "bytes_sampled": 478243,
+    "sha256_sample": "f224df3558a9eb541167b4e98ba15ea22e4008e617b75fc17304812dbda78c82",
+    "checked_at": "2026-11-23T13:20:46.500107+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.asana.com/docs/overview",
+    "final_url": "https://developers.asana.com/docs/overview",
+    "http_status": 200,
+    "bytes_sampled": 486685,
+    "sha256_sample": "d73ee6e1e0ca085b4512c9c961ab8b89565399a501266574a57b68f9f58424af",
+    "checked_at": "2026-11-23T13:20:46.659399+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+    "final_url": "https://developers.asana.com/docs/using-asanas-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 485829,
+    "sha256_sample": "d422b5b1d739465ad2e035446627ed023de1e5da06189fb60e1811d3a5e96a62",
+    "checked_at": "2026-11-23T13:20:46.825175+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+    "final_url": "https://developers.binance.com/en/docs/products/spot/rest-api",
+    "http_status": 202,
+    "bytes_sampled": 0,
+    "sha256_sample": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checked_at": "2026-11-23T13:20:46.909952+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+    "final_url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+    "http_status": 200,
+    "bytes_sampled": 141992,
+    "sha256_sample": "e7deab626b8091aa5c7210a60cc8477cd12dd4c4c12eae2348cc0ad2c384e67e",
+    "checked_at": "2026-11-23T13:20:46.928140+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.cloudflare.com/api/resources/accounts/methods/create/index.html",
+    "final_url": "https://developers.cloudflare.com/api/resources/accounts/methods/create/index.html",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "23dda14f8f74a5c600748b42b7a4c1d9d8625b791483c3b2df067f40e6ba137d",
+    "checked_at": "2026-11-23T13:20:47.115677+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.cloudflare.com/fundamentals/account/create-account/",
+    "final_url": "https://developers.cloudflare.com/fundamentals/account/create-account/",
+    "http_status": 200,
+    "bytes_sampled": 142279,
+    "sha256_sample": "ae83e1adbd9177a92f5fc9c28edde6d00550bba37817bd1b4fe095fb5f79c383",
+    "checked_at": "2026-11-23T13:20:47.115755+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.cloudflare.com/fundamentals/api/reference/permissions/",
+    "final_url": "https://developers.cloudflare.com/fundamentals/api/reference/permissions/",
+    "http_status": 200,
+    "bytes_sampled": 209980,
+    "sha256_sample": "94eedc906105eaebc3759a0422a85f7c634afc22257c38b5a0cd3c7c3b7e25e1",
+    "checked_at": "2026-11-23T13:20:47.116870+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+    "final_url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization",
+    "http_status": 200,
+    "bytes_sampled": 9310,
+    "sha256_sample": "c34a171f7d11b53f7b89643a8674336e3ca44a5b526b39654c1b8f7c2f8d17ba",
+    "checked_at": "2026-11-23T13:20:47.365037+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform/",
+    "final_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform/",
+    "http_status": 200,
+    "bytes_sampled": 18517,
+    "sha256_sample": "1d6d8b7bd55206c3f18c7fe6bb52484286dbdbb7447495efbea9798c2cd9463c",
+    "checked_at": "2026-11-23T13:20:47.383574+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/access-tokens/",
+    "final_url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/access-tokens/",
+    "http_status": 200,
+    "bytes_sampled": 10168,
+    "sha256_sample": "c4c336d18cd71bf9a94f6abaf0067a606c2d7c912136c39d5af89a2ff1fb5cc6",
+    "checked_at": "2026-11-23T13:20:47.549331+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.fathom.ai/",
+    "final_url": "https://developers.fathom.ai/",
+    "http_status": 200,
+    "bytes_sampled": 92830,
+    "sha256_sample": "d71957b2c15e9c5f1a8b586d177d82078dd4b40ffab055ff9e7028ebd1974d4f",
+    "checked_at": "2026-11-23T13:20:47.550006+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.fathom.ai/faq",
+    "final_url": "https://developers.fathom.ai/faq",
+    "http_status": 200,
+    "bytes_sampled": 142533,
+    "sha256_sample": "d3b411069b2434f14c830b5b7c8b58de248fa0db51a8fcde7194ee8b2d0d4288",
+    "checked_at": "2026-11-23T13:20:47.714320+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.fathom.ai/oauth",
+    "final_url": "https://developers.fathom.ai/oauth",
+    "http_status": 200,
+    "bytes_sampled": 91203,
+    "sha256_sample": "00f714d8be7bb95f532a15f039b8bbb1e0d0730a86dadb9f1344c2c5d9c35d8b",
+    "checked_at": "2026-11-23T13:20:47.714619+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.fathom.ai/quickstart",
+    "final_url": "https://developers.fathom.ai/quickstart",
+    "http_status": 200,
+    "bytes_sampled": 230287,
+    "sha256_sample": "1483053900c8b4c7e3178f13f407f9ba6fc3df325a455c5b1be0d17b7f41feb3",
+    "checked_at": "2026-11-23T13:20:47.879335+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.freshdesk.com/api/",
+    "final_url": "https://developers.freshdesk.com/api/",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "c6d406676d22aca8f669ae123420717efc9f1832c28ebad9244583a3c22cc5f2",
+    "checked_at": "2026-11-23T13:20:47.966880+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.freshdesk.com/api/#ratelimit",
+    "final_url": "https://developers.freshdesk.com/api/#ratelimit",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "c6d406676d22aca8f669ae123420717efc9f1832c28ebad9244583a3c22cc5f2",
+    "checked_at": "2026-11-23T13:20:48.087085+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.cn/google-ads/api/docs/api-policy/developer-token?hl=en",
+    "final_url": "https://developers.google.cn/google-ads/api/docs/api-policy/developer-token?hl=en",
+    "http_status": 200,
+    "bytes_sampled": 99438,
+    "sha256_sample": "136845bbfa452a79248211250bd2216a32813baf744e209401ecdf67453daa7d",
+    "checked_at": "2026-11-23T13:20:48.188341+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/api-explorer",
+    "final_url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/api-explorer",
+    "http_status": 200,
+    "bytes_sampled": 155040,
+    "sha256_sample": "6146e118c1ae0158491453ffa271dcb0a0c13c33d903482e52372403c12cf73b",
+    "checked_at": "2026-11-23T13:20:48.189737+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+    "final_url": "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 206136,
+    "sha256_sample": "9c5708d54c36031a60281ffa11ec88a29f3546480f888f6cbc4aadf5876f4962",
+    "checked_at": "2026-11-23T13:20:48.189804+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+    "final_url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+    "http_status": 200,
+    "bytes_sampled": 142955,
+    "sha256_sample": "4720930da6e63135db1ccd0706c19907fc457d15fbdf271452c3906edc7d7163",
+    "checked_at": "2026-11-23T13:20:48.196672+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.gorgias.com/docs/overview",
+    "final_url": "https://developers.gorgias.com/docs/overview",
+    "http_status": 200,
+    "bytes_sampled": 137185,
+    "sha256_sample": "bfc43633944521c5b5ea2a60186e20da1ae7b5f1a17f48fe4187c6ad73807a9f",
+    "checked_at": "2026-11-23T13:20:48.576333+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.gorgias.com/reference/authentication",
+    "final_url": "https://developers.gorgias.com/reference/authentication",
+    "http_status": 200,
+    "bytes_sampled": 299057,
+    "sha256_sample": "7b903ec3b4826d1c9d8abd3f2734b4087594c5dfeffd2b92cd3511e6116e4ebf",
+    "checked_at": "2026-11-23T13:20:48.632916+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.grain.com/authentication.html",
+    "final_url": "https://developers.grain.com/authentication.html",
+    "http_status": 200,
+    "bytes_sampled": 14022,
+    "sha256_sample": "5cdafb61912af8a63470fe04dfed97f74514188b192b27859cc4b00e517140f7",
+    "checked_at": "2026-11-23T13:20:48.684865+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.hubspot.com/ai-tools/mcp",
+    "final_url": "https://developers.hubspot.com/ai-tools/mcp",
+    "http_status": 200,
+    "bytes_sampled": 237693,
+    "sha256_sample": "39e4c580971dcf40e8570b4975ef8cf2cda4f2ae0f9094bd2bc76919b34ed976",
+    "checked_at": "2026-11-23T13:20:48.892992+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.hubspot.com/changelog/legacy-private-app-creation-sunset?trk=article-ssr-frontend-pulse_little-text-block",
+    "final_url": "https://developers.hubspot.com/changelog/legacy-private-app-creation-sunset?trk=article-ssr-frontend-pulse_little-text-block",
+    "http_status": 200,
+    "bytes_sampled": 219627,
+    "sha256_sample": "f3c331a5b6a31391f3f5270e703809679682651cd27fc1878e42cb1b902ea35a",
+    "checked_at": "2026-11-23T13:20:48.893585+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.hubspot.com/changelog/new-marketplace-distribution-app-install-limits",
+    "final_url": "https://developers.hubspot.com/changelog/new-marketplace-distribution-app-install-limits",
+    "http_status": 200,
+    "bytes_sampled": 223196,
+    "sha256_sample": "d2ea731965cdfee367276dc15f22144bae1eda0bd786b9eff9b98944e2e93678",
+    "checked_at": "2026-11-23T13:20:48.893866+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.hubspot.com/developer-platform-basics",
+    "final_url": "https://developers.hubspot.com/developer-platform-basics",
+    "http_status": 200,
+    "bytes_sampled": 412866,
+    "sha256_sample": "219c90ad2969e2139532510adb52b418725522c1028a12e9afe5398c92739559",
+    "checked_at": "2026-11-23T13:20:48.894093+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.intercom.com/docs",
+    "final_url": "https://developers.intercom.com/docs",
+    "http_status": 200,
+    "bytes_sampled": 399137,
+    "sha256_sample": "a9e2f08a73cf2379a623a65f6217e94d011c5997f556510e27a060a5be2fdf82",
+    "checked_at": "2026-11-23T13:20:49.326072+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "final_url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "http_status": 200,
+    "bytes_sampled": 404489,
+    "sha256_sample": "3d3d126122ca04e77889b945b05a0a7277834bc06de2a70e4f48df7ce5e43476",
+    "checked_at": "2026-11-23T13:20:49.556747+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.klaviyo.com/en/docs/connect_to_the_klaviyo_mcp_server",
+    "final_url": "https://developers.klaviyo.com/en/docs/connect_to_the_klaviyo_mcp_server",
+    "http_status": 200,
+    "bytes_sampled": 101923,
+    "sha256_sample": "5b6c690edb740ea8b1162036187d97e9c2ec5385c407898222c4d947ce094370",
+    "checked_at": "2026-11-23T13:20:49.736496+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.klaviyo.com/en/docs/create_a_test_account",
+    "final_url": "https://developers.klaviyo.com/en/docs/create_a_test_account",
+    "http_status": 200,
+    "bytes_sampled": 66236,
+    "sha256_sample": "619a284788ca782c96ee05a76293f3c12a638e8c66f8de1fa94494c7797570a7",
+    "checked_at": "2026-11-23T13:20:49.844036+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+    "final_url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+    "http_status": 200,
+    "bytes_sampled": 132291,
+    "sha256_sample": "4d75f279a925b3602e98206472394a9450d1b5e4bf70774e2b0dc8bede1d5688",
+    "checked_at": "2026-11-23T13:20:49.928805+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.notion.com/guides/authorization/overview",
+    "final_url": "https://developers.notion.com/guides/authorization/overview",
+    "http_status": 200,
+    "bytes_sampled": 463004,
+    "sha256_sample": "c20d41ab68236bace8bbb03fffb8e0aff1db564c1ff5ac3233e4bec928e7a246",
+    "checked_at": "2026-11-23T13:20:50.015655+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.notion.com/guides/mcp/overview",
+    "final_url": "https://developers.notion.com/guides/mcp/overview",
+    "http_status": 200,
+    "bytes_sampled": 205495,
+    "sha256_sample": "a05e57c8a8903e2f544b99c3c34e65e6223db919fbd9313845609899c6f7713c",
+    "checked_at": "2026-11-23T13:20:50.015775+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.notion.com/reference/create-view",
+    "final_url": "https://developers.notion.com/reference/create-view",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "8a9179fc85bbd32cb83c76fd3fd7db389b117648072b20dd2cda90d30fff2739",
+    "checked_at": "2026-11-23T13:20:50.041811+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.pinterest.com/docs/developer-tools/quickstart-tools/",
+    "final_url": "https://developers.pinterest.com/docs/developer-tools/quickstart-tools/",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "fc80ee5ef576c4de451e5b9ce3bd8b2e877b0a3f57a65ee8cc64f159f128a03f",
+    "checked_at": "2026-11-23T13:20:50.406515+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.podio.com/",
+    "final_url": "https://developers.podio.com/",
+    "http_status": 200,
+    "bytes_sampled": 14304,
+    "sha256_sample": "6b4d045ca57079e77447311a51b93bc5c60ffde5c2bfd216c11b65a69b052b98",
+    "checked_at": "2026-11-23T13:20:50.412404+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.podio.com/authentication",
+    "final_url": "https://developers.podio.com/authentication",
+    "http_status": 200,
+    "bytes_sampled": 19233,
+    "sha256_sample": "071425750d4d558cb61b106493ddedf8f656bfc177596d09c589ae633d634532",
+    "checked_at": "2026-11-23T13:20:50.412770+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.podio.com/index/faq",
+    "final_url": "https://developers.podio.com/index/faq",
+    "http_status": 200,
+    "bytes_sampled": 16200,
+    "sha256_sample": "406f167d8fe196cd474f131f9044ba6f0a8d8d76ab35423aec0f78b1488a5370",
+    "checked_at": "2026-11-23T13:20:50.413659+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+    "final_url": "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+    "http_status": 200,
+    "bytes_sampled": 422899,
+    "sha256_sample": "42c1d4f811a8d51a89de8f07f98e58308fef6c08bb0959cc0936c725a0717521",
+    "checked_at": "2026-11-23T13:20:50.838030+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.smartsheet.com/api/smartsheet/introduction",
+    "final_url": "https://developers.smartsheet.com/api/smartsheet/introduction",
+    "http_status": 200,
+    "bytes_sampled": 396921,
+    "sha256_sample": "ddefa176da9e2f2b7468cc261e123d560f6fcbdcac97c67d9dd8fb7231b6d2ff",
+    "checked_at": "2026-11-23T13:20:50.961165+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.smartsheet.com/register",
+    "final_url": "https://developers.smartsheet.com/register",
+    "http_status": 200,
+    "bytes_sampled": 241357,
+    "sha256_sample": "fd8497f0a42d019eb64f9d66c8b2882492a524b2fbf13fdc186d615f8748056c",
+    "checked_at": "2026-11-23T13:20:51.075939+00:00",
+    "error": null
+  },
+  {
+    "url": "https://developers.squarespace.com/mcp/tools/commerce",
+    "final_url": "https://developers.squarespace.com/mcp/tools/commerce",
+    "http_status": 200,
+    "bytes_sampled": 65340,
+    "sha256_sample": "39c387216f432bb78f6156900f38c697ec38b68950f19045d289cfb55071020e",
+    "checked_at": "2026-11-23T13:20:51.185834+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+    "final_url": "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+    "http_status": 200,
+    "bytes_sampled": 179821,
+    "sha256_sample": "54d32ec80bf819d5099e8dc5fdb57b954ed0a064c3db37146c6dd8b294df6897",
+    "checked_at": "2026-11-23T13:20:51.629978+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.ahrefs.com/en/api/docs/changelog",
+    "final_url": "https://docs.ahrefs.com/en/api/docs/changelog",
+    "http_status": 200,
+    "bytes_sampled": 325867,
+    "sha256_sample": "7fa192be37342e6c1fd709e7300b8908ff3dae59ec629b280e85f6d9dc9944d6",
+    "checked_at": "2026-11-23T13:20:51.724629+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+    "final_url": "https://docs.ahrefs.com/en/mcp/docs/introduction",
+    "http_status": 200,
+    "bytes_sampled": 116412,
+    "sha256_sample": "2b592078216c7956325a7b92e156138e7dc0c60ef19e5052c756a2aa6c3fc37b",
+    "checked_at": "2026-11-23T13:20:51.724867+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.apify.com/api/v2",
+    "final_url": "https://docs.apify.com/api/v2",
+    "http_status": 200,
+    "bytes_sampled": 272821,
+    "sha256_sample": "544cb2d39b90cfcb54ba30cb3d78804f5a2ebaeeae9eb287fad1578909e9ec92",
+    "checked_at": "2026-11-23T13:20:51.948004+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+    "final_url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+    "http_status": 200,
+    "bytes_sampled": 291140,
+    "sha256_sample": "b74f55ad15d0b9b99c34bbf33f3b6e5037b67a2c17befe6c2b0c95d486440aa0",
+    "checked_at": "2026-11-23T13:20:52.076271+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.brightdata.com/ai/mcp-server/overview",
+    "final_url": "https://docs.brightdata.com/products/mcp-server/overview",
+    "http_status": 200,
+    "bytes_sampled": 203734,
+    "sha256_sample": "73c1da117be855f852e1187b4e3b9cc3e40ac7cf684f1a3732f03e01711bc036",
+    "checked_at": "2026-11-23T13:20:52.076351+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "final_url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "http_status": 200,
+    "bytes_sampled": 170717,
+    "sha256_sample": "ae2ff6a6d851284ddacee8298161a61a2f103a7f32790a30af9f1619ce9f0883",
+    "checked_at": "2026-11-23T13:20:52.077167+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.consensus.app/api-get-started",
+    "final_url": "https://docs.consensus.app/api-get-started",
+    "http_status": 200,
+    "bytes_sampled": 310168,
+    "sha256_sample": "dc49d479b3e072b0453e6270de593aaefae6bd186c5c3f4eedc3a61ae408c2b6",
+    "checked_at": "2026-11-23T13:40:31.390363+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.datadoghq.com/agentic_onboarding/",
+    "final_url": "https://docs.datadoghq.com/agentic_onboarding/",
+    "http_status": 200,
+    "bytes_sampled": 98949,
+    "sha256_sample": "e53a42ac2264f4938a051848bccdd8a570f309cb793dc1bdbd0e942d027fed79",
+    "checked_at": "2026-11-23T13:20:52.077749+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "final_url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "http_status": 200,
+    "bytes_sampled": 403089,
+    "sha256_sample": "b5742466dc1a8865f9f79f1d2aeccc7962e9634cffeac7c1acd1360b9f89a612",
+    "checked_at": "2026-11-23T13:20:52.425897+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.devin.ai/api-reference/authentication",
+    "final_url": "https://docs.devin.ai/api-reference/authentication",
+    "http_status": 200,
+    "bytes_sampled": 580754,
+    "sha256_sample": "5b9e83999cca24b14566196e4a1c3d941b5e86ffe88b3814e65b2e3c72597c91",
+    "checked_at": "2026-11-23T13:20:52.451680+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+    "final_url": "https://docs.devin.ai/work-with-devin/devin-mcp",
+    "http_status": 200,
+    "bytes_sampled": 598031,
+    "sha256_sample": "6759cece60455306c2efd2948c69c1d260ee0425e6c8bcea1ec94efd0c388986",
+    "checked_at": "2026-11-23T13:20:52.610188+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.discord.com/developers/quick-start/getting-started",
+    "final_url": "https://docs.discord.com/developers/quick-start/getting-started",
+    "http_status": 200,
+    "bytes_sampled": 507016,
+    "sha256_sample": "dd01bb66934c8008e76039286830755422fef2bb522b7649834b8172f355ecad",
+    "checked_at": "2026-11-23T13:20:52.784803+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+    "final_url": "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+    "http_status": 200,
+    "bytes_sampled": 429360,
+    "sha256_sample": "11593917894f474a7ebdb690ce4591ecaa3ba95a0a9a426fadac651616c1762e",
+    "checked_at": "2026-11-23T13:20:52.929600+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+    "final_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 727635,
+    "sha256_sample": "c6e082f6be558367e00d0cb1dcee9e00b5b1b9345bdd422057c533d159e7a92c",
+    "checked_at": "2026-11-23T13:20:52.961426+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+    "final_url": "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 827174,
+    "sha256_sample": "7c46766b3bea87b415d125d70bb63f95a5975a5927460cf976756ef6d80a0c74",
+    "checked_at": "2026-11-23T13:20:52.977142+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.github.com/en/graphql",
+    "final_url": "https://docs.github.com/en/graphql",
+    "http_status": 200,
+    "bytes_sampled": 151349,
+    "sha256_sample": "a74daa973dd1e03cb4947b017bf64328626039f55d8437032be2d4a3b1afe622",
+    "checked_at": "2026-11-23T13:40:31.390765+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "final_url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "http_status": 200,
+    "bytes_sampled": 349618,
+    "sha256_sample": "36ff71498c529aae63480bde55b9cd6f6187aeb72f4d735aa03bb3310be47f3c",
+    "checked_at": "2026-11-23T13:20:52.981306+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.helpscout.com/article/1140-mailbox-api",
+    "final_url": "https://docs.helpscout.com/article/1140-mailbox-api",
+    "http_status": 200,
+    "bytes_sampled": 47564,
+    "sha256_sample": "1a78f0e39155822910dadd0a60274e72bae6040bb500ca35f8216f2de198593c",
+    "checked_at": "2026-11-23T13:20:53.371940+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.helpscout.com/article/1779-help-scout-mcp-server",
+    "final_url": "https://docs.helpscout.com/article/1779-help-scout-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 63665,
+    "sha256_sample": "024e90faabf7fe0a225f7a248494dbd66449f087048e4cae14b9a497b53e83ba",
+    "checked_at": "2026-11-23T13:20:53.498678+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.higgsfield.ai/docs",
+    "final_url": "https://docs.higgsfield.ai/docs",
+    "http_status": 200,
+    "bytes_sampled": 173947,
+    "sha256_sample": "9fc317c9fedb565330811235b3431724bcb07124898dca61e9690be868d518e7",
+    "checked_at": "2026-11-23T13:20:53.687070+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.mrscraper.com/docs/api/authentication",
+    "final_url": "https://docs.mrscraper.com/docs/api/authentication",
+    "http_status": 200,
+    "bytes_sampled": 217642,
+    "sha256_sample": "a2a2a35346004c668b97ae00e583be616873f297bc322156d7ede6362187d446",
+    "checked_at": "2026-11-23T13:20:53.708672+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.mrscraper.com/docs/guides/programmatically",
+    "final_url": "https://docs.mrscraper.com/docs/guides/programmatically",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "8092305489c1b30756bcecc7d6549f97a07f684414d37858cd04de70f8f58c54",
+    "checked_at": "2026-11-23T13:20:53.710365+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "final_url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+    "http_status": 200,
+    "bytes_sampled": 284227,
+    "sha256_sample": "d4d165824097368229544ed1bbc4b5ae11e51459235cab6a8793633bc11b81b4",
+    "checked_at": "2026-11-23T13:20:53.959109+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.nmi.com/docs/direct-connect",
+    "final_url": "https://docs.nmi.com/docs/direct-connect",
+    "http_status": 200,
+    "bytes_sampled": 293890,
+    "sha256_sample": "c604240b22c0048669c330a437243836d183078e4b5a6336971fc74d87504a89",
+    "checked_at": "2026-11-23T13:20:54.169030+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.ramp.com/developer-api/v1/developer-mcp",
+    "final_url": "https://docs.ramp.com/developer-api/v1/developer-mcp",
+    "http_status": 200,
+    "bytes_sampled": 13039,
+    "sha256_sample": "46a397289eb3f8e986c972ac974b506f5d3c0545e7bef91c3a02407a135d5313",
+    "checked_at": "2026-11-23T13:20:54.217725+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.ramp.com/developer-api/v1/guides/getting-started",
+    "final_url": "https://docs.ramp.com/developer-api/v1/guides/getting-started",
+    "http_status": 200,
+    "bytes_sampled": 13039,
+    "sha256_sample": "46a397289eb3f8e986c972ac974b506f5d3c0545e7bef91c3a02407a135d5313",
+    "checked_at": "2026-11-23T13:20:54.420462+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.reducto.ai/",
+    "final_url": "https://docs.reducto.ai/",
+    "http_status": 200,
+    "bytes_sampled": 42986,
+    "sha256_sample": "c53f1cea7101c72ae5b81c5f592964d57b90a8ae697867455809d6ea43c5bc81",
+    "checked_at": "2026-11-23T13:20:54.584598+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.reducto.ai/mcp-server",
+    "final_url": "https://docs.reducto.ai/mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 125086,
+    "sha256_sample": "794f438d06ea7dd5e28a753882de0adf7b6a8f5991dc5d7932add360a4fd23ba",
+    "checked_at": "2026-11-23T13:20:54.632242+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.reducto.ai/quickstart",
+    "final_url": "https://docs.reducto.ai/quickstart",
+    "http_status": 200,
+    "bytes_sampled": 125155,
+    "sha256_sample": "92ef22d0afb5b93e1c7e10f49e274ac902f81358c5a4983141b94cacdf82571d",
+    "checked_at": "2026-11-23T13:20:54.854248+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.sentry.io/api/",
+    "final_url": "https://docs.sentry.io/api/",
+    "http_status": 200,
+    "bytes_sampled": 272344,
+    "sha256_sample": "084b0c2ed8603ed8d5eca5e943e2c6f46d5bedb72c464cf1563d3697560b67a7",
+    "checked_at": "2026-11-23T13:20:54.940725+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.sentry.io/api/auth/",
+    "final_url": "https://docs.sentry.io/api/auth/",
+    "http_status": 200,
+    "bytes_sampled": 645609,
+    "sha256_sample": "9f869cf6ed532d9b03b4dd153a69f79d0fdb1968f046b02f160e9e12b82faba1",
+    "checked_at": "2026-11-23T13:20:54.953906+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.sentry.io/api/guides/create-auth-token/",
+    "final_url": "https://docs.sentry.io/api/guides/create-auth-token/",
+    "http_status": 200,
+    "bytes_sampled": 283589,
+    "sha256_sample": "87dfbc4964c1fd2665a6924bc6a1037d21b0d6cb9a155070749ff4f7594e76b0",
+    "checked_at": "2026-11-23T13:20:55.282099+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.sentry.io/product/sentry-mcp/",
+    "final_url": "https://mcp.sentry.dev/",
+    "http_status": 200,
+    "bytes_sampled": 8430,
+    "sha256_sample": "b61a2b50b57c3d3abae28e3c4261a6a912aa36c1780248f4c3ddb07f5c82762d",
+    "checked_at": "2026-11-23T13:20:55.425279+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.slack.dev/",
+    "final_url": "https://docs.slack.dev/",
+    "http_status": 200,
+    "bytes_sampled": 346740,
+    "sha256_sample": "b433dace9c92f4f098c593b493c2975098e3b02185712afb0ac960037809fcc0",
+    "checked_at": "2026-11-23T13:20:55.524825+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.slack.dev/ai/slack-mcp-server",
+    "final_url": "https://docs.slack.dev/ai/slack-mcp-server/",
+    "http_status": 200,
+    "bytes_sampled": 60370,
+    "sha256_sample": "7dbdea8e81432b5077162fb53816a0c6ec1d9623b0d915edc380e61b4d857132",
+    "checked_at": "2026-11-23T13:20:55.553235+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+    "final_url": "https://docs.slack.dev/authentication/installing-with-oauth/",
+    "http_status": 200,
+    "bytes_sampled": 94914,
+    "sha256_sample": "c4fd45092faa9a5add3086dc7b83e8ac218d921eacb6576efede925cb8122189",
+    "checked_at": "2026-11-23T13:20:55.727519+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+    "final_url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+    "http_status": 200,
+    "bytes_sampled": 199691,
+    "sha256_sample": "9594ee2c27cc6b44179584dc6039372af59ba0c28fbfeb5c3d1f862066b1175c",
+    "checked_at": "2026-11-23T13:20:55.728640+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+    "final_url": "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+    "http_status": 200,
+    "bytes_sampled": 117703,
+    "sha256_sample": "6c078070337d2b522214464fdfa561c76b71d5b3f89b12126ca43b36e350aa3d",
+    "checked_at": "2026-11-23T13:20:55.890273+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+    "final_url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+    "http_status": 200,
+    "bytes_sampled": 511472,
+    "sha256_sample": "7f77cb614920c01a0d019c20cefddfd11c54bc37b6ecab39f8c5014db01829a8",
+    "checked_at": "2026-11-23T13:20:56.054501+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.stripe.com/keys",
+    "final_url": "https://docs.stripe.com/keys",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "7d120fa3da4b633a65b84da9c1b878e4ca6a95b36eca104f367fc63465047e86",
+    "checked_at": "2026-11-23T13:20:56.145590+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.stripe.com/mcp",
+    "final_url": "https://docs.stripe.com/mcp",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "7f303c2e245f8eca0961561c727cec84c3bdf83cfb786b524afb89de13014f5e",
+    "checked_at": "2026-11-23T13:20:56.428187+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.twenty.com/developers/extend/api",
+    "final_url": "https://docs.twenty.com/developers/extend/api",
+    "http_status": 200,
+    "bytes_sampled": 274255,
+    "sha256_sample": "7cad550526f83397b3a9909a5521e095a896b1b67446f736236fe7471314fd35",
+    "checked_at": "2026-11-23T13:20:56.792729+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "final_url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "http_status": 200,
+    "bytes_sampled": 857950,
+    "sha256_sample": "e622a9578d87584609deaf150227485e250439487d0c2b7a0b7b6f64532c79d5",
+    "checked_at": "2026-11-23T13:20:56.875178+00:00",
+    "error": null
+  },
+  {
+    "url": "https://docs.waterfall.io/v1/introduction",
+    "final_url": "https://docs.waterfall.io/v1/introduction",
+    "http_status": 200,
+    "bytes_sampled": 155103,
+    "sha256_sample": "091af1e9158c4a62ca0a5eb47d3353131ade7b1cdae374bb432a675ac4ffc79c",
+    "checked_at": "2026-11-23T13:20:56.875316+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/andrewginns/mermaid-mcp-server",
+    "final_url": "https://github.com/andrewginns/mermaid-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 279661,
+    "sha256_sample": "a7c2937120fa5788694e6d374c110f923771ed5428f69a0856685dbeeb94d956",
+    "checked_at": "2026-11-23T13:40:31.390992+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/apify/apify-mcp-server/blob/master/README.md",
+    "final_url": "https://github.com/apify/apify-mcp-server/blob/master/README.md",
+    "http_status": 200,
+    "bytes_sampled": 434955,
+    "sha256_sample": "86f37b90c82811fb2371e6c9fd0e004ad97cfd4954228b5bf5f3565d5ac087b4",
+    "checked_at": "2026-11-23T13:20:57.113015+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/brightdata/opencode-brightdata/blob/main/skills/bright-data-mcp/references/mcp-setup.md",
+    "final_url": "https://github.com/brightdata/opencode-brightdata/blob/main/skills/bright-data-mcp/references/mcp-setup.md",
+    "http_status": 200,
+    "bytes_sampled": 240675,
+    "sha256_sample": "894ef9a6f1c9d8774e125b9f026e9f0a5d35fca7992e57e056beeee5043ded10",
+    "checked_at": "2026-11-23T13:20:57.114214+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/dataforseo/mcp-server-typescript/blob/master/SKILL.md",
+    "final_url": "https://github.com/dataforseo/mcp-server-typescript/blob/master/SKILL.md",
+    "http_status": 200,
+    "bytes_sampled": 257602,
+    "sha256_sample": "ee6e4a8c5bb133e79f5e5d7c8fbe1e4349b2e48759f3c577f28733b69cd8e754",
+    "checked_at": "2026-11-23T13:20:57.336817+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/firecrawl/firecrawl-docs/blob/main/rate-limits.mdx",
+    "final_url": "https://github.com/firecrawl/firecrawl-docs/blob/main/rate-limits.mdx",
+    "http_status": 200,
+    "bytes_sampled": 261177,
+    "sha256_sample": "6da8973fad8df764d314e150edfbc8b0c4fb54c7a48ce6b70049dfd87546183f",
+    "checked_at": "2026-11-23T13:20:57.422634+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "final_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 765442,
+    "sha256_sample": "7210dca0f630beff0db79291148fc02e843cd9cc2e83ec61a63b6e5c94708d2d",
+    "checked_at": "2026-11-23T13:20:57.682542+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/mermaid-js/mermaid-cli",
+    "final_url": "https://github.com/mermaid-js/mermaid-cli",
+    "http_status": 200,
+    "bytes_sampled": 352717,
+    "sha256_sample": "9ddb30d8785a8ad2a0875a5ae54e122a8b7e7964043a15b4138407432e22da39",
+    "checked_at": "2026-11-23T13:20:57.757971+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/netlify/netlify-mcp",
+    "final_url": "https://github.com/netlify/netlify-mcp",
+    "http_status": 200,
+    "bytes_sampled": 281771,
+    "sha256_sample": "a1f9cd6533f2adf4676a42ba2cd7eeb35509df44c31faa6723388ed10da2bf56",
+    "checked_at": "2026-11-23T13:20:57.841063+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/qKitNp/sherlock_mcp",
+    "final_url": "https://github.com/qKitNp/sherlock_mcp",
+    "http_status": 200,
+    "bytes_sampled": 244639,
+    "sha256_sample": "08f5b518ae176b4a3c13afc55cc96e0919e8ce73e0ded5977ae679bd035d01fc",
+    "checked_at": "2026-11-23T13:40:31.391285+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/sherlock-project/sherlock?ref=weeklyfoo",
+    "final_url": "https://github.com/sherlock-project/sherlock?ref=weeklyfoo",
+    "http_status": 200,
+    "bytes_sampled": 276191,
+    "sha256_sample": "c8057b87db6ff27c76b3fe1fb93c8ed1b942496d669a1b076f19d97106b7b03f",
+    "checked_at": "2026-11-23T13:20:57.925860+00:00",
+    "error": null
+  },
+  {
+    "url": "https://github.com/sherlock-project/sherlockproject.xyz/blob/master/installation.mdx",
+    "final_url": "https://github.com/sherlock-project/sherlockproject.xyz/blob/master/installation.mdx",
+    "http_status": 200,
+    "bytes_sampled": 201733,
+    "sha256_sample": "2808e05576470fb4cb6eb7321a90a1498eb15edf6efcf5a13f4b446fa6735303",
+    "checked_at": "2026-11-23T13:20:58.036332+00:00",
+    "error": null
+  },
+  {
+    "url": "https://gumroad.com/help/article/280-create-application-api",
+    "final_url": "https://gumroad.com/help/article/280-create-application-api",
+    "http_status": 200,
+    "bytes_sampled": 36342,
+    "sha256_sample": "da33da07077fb87135308d7cfa7fe7c220994521d99a212f62bc352151455e04",
+    "checked_at": "2026-11-23T13:20:58.269575+00:00",
+    "error": null
+  },
+  {
+    "url": "https://gumroad.com/help/article/355-connect-ai-assistants-to-gumroad",
+    "final_url": "https://gumroad.com/help/article/355-connect-ai-assistants-to-gumroad",
+    "http_status": 200,
+    "bytes_sampled": 37595,
+    "sha256_sample": "2fc4d87e639476e9e6694b424e722d79a7f3c84acadbb24c8134b13698017fc3",
+    "checked_at": "2026-11-23T13:20:58.363309+00:00",
+    "error": null
+  },
+  {
+    "url": "https://gumroad.com/help/article/76-license-keys",
+    "final_url": "https://gumroad.com/help/article/76-license-keys",
+    "http_status": 200,
+    "bytes_sampled": 49360,
+    "sha256_sample": "1a998fc3b8760111bd1199179743f68b566681878bc9a5fe3da47e0b51f532b6",
+    "checked_at": "2026-11-23T13:20:58.363738+00:00",
+    "error": null
+  },
+  {
+    "url": "https://gumroad.com/mcp",
+    "final_url": "https://gumroad.com/mcp",
+    "http_status": 200,
+    "bytes_sampled": 39693,
+    "sha256_sample": "598b165af9e2da242f63e81a3b9e5c7d8e00d29d7d90e29b8de0ca0ca46be9c7",
+    "checked_at": "2026-11-23T13:20:58.364266+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.ahrefs.com/en/articles/6559232-about-api-v3",
+    "final_url": "https://help.ahrefs.com/en/articles/6559232-about-api-v3",
+    "http_status": 200,
+    "bytes_sampled": 130662,
+    "sha256_sample": "8eec0fce6e75d06aa8963c1c71edbbb87c501b1185623a5833ece25b49a61424",
+    "checked_at": "2026-11-23T13:20:58.521726+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.coda.io/hc/en-us/articles/39555760015757-Overview-Doc-limits",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:58.768992+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://help.coda.io/hc/en-us/articles/39555941038349-Does-Coda-have-an-API",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:58.803348+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://help.coda.io/hc/en-us/articles/44722661982989-Connect-to-the-Coda-MCP",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:58.825434+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+    "final_url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+    "http_status": 200,
+    "bytes_sampled": 145408,
+    "sha256_sample": "1faef0a7e73ed56782cf60611fd99e35ba3ae04542ecb2140e3d626e892c498a",
+    "checked_at": "2026-11-23T13:20:59.103377+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "final_url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "http_status": 200,
+    "bytes_sampled": 26080,
+    "sha256_sample": "9b97c45d484a36cfd7a882c53a7af55bef0c4cee0c052d6dab481178fbc35c65",
+    "checked_at": "2026-11-23T13:20:59.104055+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.gladly.com/docs/generate-api-tokens-and-create-webhooks/",
+    "final_url": "https://help.gladly.com/docs/generate-api-tokens-and-create-webhooks/",
+    "http_status": 200,
+    "bytes_sampled": 613279,
+    "sha256_sample": "64855fbed23b1fa5fbef5aed9ee347bf1b13c63835c5f31d7976cc26a19b26e1",
+    "checked_at": "2026-11-23T13:20:59.105203+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/155000003054-private-integrations-everything-you-need-to-know?fp_ref=getfreetrail&fp_sid=api-pit",
+    "final_url": "https://help.gohighlevel.com/support/solutions/articles/155000003054-private-integrations-everything-you-need-to-know?fp_ref=getfreetrail&fp_sid=api-pit",
+    "http_status": 200,
+    "bytes_sampled": 187662,
+    "sha256_sample": "312a4ec7c3e91e2427130b97fc4e3454b01b114e0226cdc7c74af06b6cfa79ca",
+    "checked_at": "2026-11-23T13:20:59.105648+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005062267",
+    "final_url": "https://help.klaviyo.com/hc/en-us/articles/115005062267",
+    "http_status": 200,
+    "bytes_sampled": 256098,
+    "sha256_sample": "022f1575dc7395d63de0e42586a87c8f47f54c90cc70f4c9f2f2ae4067bc1c75",
+    "checked_at": "2026-11-23T13:20:59.105833+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:20:59.583282+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "final_url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "http_status": 200,
+    "bytes_sampled": 153631,
+    "sha256_sample": "108f14623a6e9b5916b3b70472d1b6302b05b2c019e83ab493ddd8957c188ac8",
+    "checked_at": "2026-11-23T13:20:59.583435+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.plain.com/article/pricing",
+    "final_url": "https://help.plain.com/article/pricing",
+    "http_status": 200,
+    "bytes_sampled": 140900,
+    "sha256_sample": "439300de1ff045fe092bdf5f361ae77f0a9fe579d622a85c5e8b27f82dbc2cc6",
+    "checked_at": "2026-11-23T13:20:59.787898+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.salesforce.com/s/articleView?id=000391273&language=en_US&type=1",
+    "final_url": "https://help.salesforce.com/s/articleView?id=000391273&language=en_US&type=1",
+    "http_status": 200,
+    "bytes_sampled": 211428,
+    "sha256_sample": "eed3b1af6ca187fd9be38c780785bed545287b5e346031d2e9571cece1f9606d",
+    "checked_at": "2026-11-23T13:20:59.900071+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.salesforce.com/s/articleView?id=cc.b2c_account_manager_add_api_client_id.htm&language=en_US&type=5",
+    "final_url": "https://help.salesforce.com/s/articleView?id=cc.b2c_account_manager_add_api_client_id.htm&language=en_US&type=5",
+    "http_status": 200,
+    "bytes_sampled": 211428,
+    "sha256_sample": "eed3b1af6ca187fd9be38c780785bed545287b5e346031d2e9571cece1f9606d",
+    "checked_at": "2026-11-23T13:21:00.015902+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.seranking.com/hc/en-us/articles/22447958135068-Getting-Started-with-SE-Ranking-s-API",
+    "final_url": "https://help.seranking.com/hc/en-us/articles/22447958135068-Getting-Started-with-SE-Ranking-s-API",
+    "http_status": 200,
+    "bytes_sampled": 66738,
+    "sha256_sample": "9bcc8a1321cc4edd84d8d74abb6af738ae9889916ce7146eafbd5d672ca1cbfd",
+    "checked_at": "2026-11-23T13:21:00.143261+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+    "final_url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+    "http_status": 200,
+    "bytes_sampled": 134381,
+    "sha256_sample": "eaf0fb3054409d91993cac37b0f8093b2a5a6d4b14419fca14e31c2e25fec78f",
+    "checked_at": "2026-11-23T13:21:00.309434+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp?sa=sa0024558361f5d7443882b1862ee00908b6e7c72a",
+    "final_url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp?sa=sa0024558361f5d7443882b1862ee00908b6e7c72a",
+    "http_status": 200,
+    "bytes_sampled": 152827,
+    "sha256_sample": "2844bcc250be49020eb6c42a22d7274dd9ac9552cba9a6b0e92b04065e23adbf",
+    "checked_at": "2026-11-23T13:21:00.431379+00:00",
+    "error": null
+  },
+  {
+    "url": "https://help.twilio.com/articles/9318455807771",
+    "final_url": "https://help.twilio.com/articles/9318455807771",
+    "http_status": 200,
+    "bytes_sampled": 4144,
+    "sha256_sample": "64a2b57ea11899ed15c2dc2ec53721a43f5a607d52c86cbbc3c32d00829137c7",
+    "checked_at": "2026-11-23T13:21:00.546569+00:00",
+    "error": null
+  },
+  {
+    "url": "https://higgsfield.ai/mcp",
+    "final_url": "https://higgsfield.ai/mcp",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "558ceb7a7fc8ce1c9b9c674cfbeabcf1fabaeb45e6fe02e7f103e64337e5b7ea",
+    "checked_at": "2026-11-23T13:21:00.648808+00:00",
+    "error": null
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq?view=li-lms-2026-05",
+    "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq?view=li-lms-2026-05",
+    "http_status": 200,
+    "bytes_sampled": 60957,
+    "sha256_sample": "549ef14e41626a6d1e7cf8cd8b99db3e028828e30beb04a93cf32e77d45dd41e",
+    "checked_at": "2026-11-23T13:21:00.777998+00:00",
+    "error": null
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2026-10",
+    "final_url": "https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2026-10",
+    "http_status": 200,
+    "bytes_sampled": 66274,
+    "sha256_sample": "3d08a381261be77cd0071ec132c9944541323edc17cbcab3637ce30ee2b95f6f",
+    "checked_at": "2026-11-23T13:21:00.887392+00:00",
+    "error": null
+  },
+  {
+    "url": "https://linear.app/developers/graphql",
+    "final_url": "https://linear.app/developers/graphql",
+    "http_status": 200,
+    "bytes_sampled": 621795,
+    "sha256_sample": "602b684bfd71d8585608f15b707c0237bd70a4b33e8818bf7a5d1fa4ecbeb6c6",
+    "checked_at": "2026-11-23T13:21:00.916424+00:00",
+    "error": null
+  },
+  {
+    "url": "https://linear.app/docs/mcp",
+    "final_url": "https://linear.app/docs/mcp",
+    "http_status": 200,
+    "bytes_sampled": 797692,
+    "sha256_sample": "4b70bcf8b85bb78db09090214b11d24b12082d8a065e709023f11f78192a0d02",
+    "checked_at": "2026-11-23T13:21:01.073756+00:00",
+    "error": null
+  },
+  {
+    "url": "https://linear.app/pricing?sid=1efb625a-93db-4d70-8c6b-db489c10728f",
+    "final_url": "https://linear.app/pricing?sid=1efb625a-93db-4d70-8c6b-db489c10728f",
+    "http_status": 200,
+    "bytes_sampled": 829700,
+    "sha256_sample": "60437bfbdb5f1720384d09c39f011da08dbecc65bee8418b99786f3209174365",
+    "checked_at": "2026-11-23T13:21:01.107032+00:00",
+    "error": null
+  },
+  {
+    "url": "https://mailchimp.com/developer/marketing/build/get-started/create-an-account",
+    "final_url": "https://mailchimp.com/developer/marketing/build/get-started/create-an-account",
+    "http_status": 200,
+    "bytes_sampled": 151789,
+    "sha256_sample": "8084f624c3fa655d8fc5d6d7b40dd37bd9ace6b2ad9b7c60fe9eb6bb92ea3ea3",
+    "checked_at": "2026-11-23T13:21:01.155852+00:00",
+    "error": null
+  },
+  {
+    "url": "https://mailchimp.com/legal/api_use/",
+    "final_url": "https://mailchimp.com/legal/api_use/",
+    "http_status": 200,
+    "bytes_sampled": 228413,
+    "sha256_sample": "9a67f360d20b54c17079382a4b305ba18c75f357377573af5d1b38dc915bf9cd",
+    "checked_at": "2026-11-23T13:21:01.348610+00:00",
+    "error": null
+  },
+  {
+    "url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/index.html",
+    "final_url": "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/index.html",
+    "http_status": 200,
+    "bytes_sampled": 99406,
+    "sha256_sample": "013974cfe0d536b2fecf8f1f3aeff060468a1fb686842a6d7c51496d09c70a64",
+    "checked_at": "2026-11-23T13:21:01.465534+00:00",
+    "error": null
+  },
+  {
+    "url": "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/",
+    "final_url": "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/",
+    "http_status": 200,
+    "bytes_sampled": 37457,
+    "sha256_sample": "01af85361e6479c915e928cdaea7719b431447899b143fdbdaeaa09fda56437c",
+    "checked_at": "2026-11-23T13:21:01.609803+00:00",
+    "error": null
+  },
+  {
+    "url": "https://mrscraper.com/pricing",
+    "final_url": "https://mrscraper.com/pricing",
+    "http_status": 200,
+    "bytes_sampled": 314856,
+    "sha256_sample": "59e1a86519e69c6255b7706b658388c386889e6182970e47eaf190df2a087e51",
+    "checked_at": "2026-11-23T13:21:01.609951+00:00",
+    "error": null
+  },
+  {
+    "url": "https://neo4j.com/docs/mcp/current/authentication/",
+    "final_url": "https://neo4j.com/docs/mcp/current/authentication/",
+    "http_status": 200,
+    "bytes_sampled": 53635,
+    "sha256_sample": "0dc7f6d869a5e8e38b65b298836d49a0193f0f31ab0e783609a0ded385cb12c5",
+    "checked_at": "2026-11-23T13:21:01.823394+00:00",
+    "error": null
+  },
+  {
+    "url": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+    "final_url": "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+    "http_status": 200,
+    "bytes_sampled": 47976,
+    "sha256_sample": "3773b3aee334229e94a6121ea2aea3880b03e55111ee6828edb74216343f5cc0",
+    "checked_at": "2026-11-23T13:21:01.829207+00:00",
+    "error": null
+  },
+  {
+    "url": "https://neo4j.com/pricing/",
+    "final_url": "https://neo4j.com/pricing/",
+    "http_status": 200,
+    "bytes_sampled": 461961,
+    "sha256_sample": "b4d7f096fd194c559b1c2f381e2c5faa88f23adafc4a025f1e46b95bfc2e249d",
+    "checked_at": "2026-11-23T13:21:02.001789+00:00",
+    "error": null
+  },
+  {
+    "url": "https://open.higgsfield.ai/explore",
+    "final_url": "https://open.higgsfield.ai/explore",
+    "http_status": 200,
+    "bytes_sampled": 597985,
+    "sha256_sample": "ef0645a4082cb4ae0aaf6f6a90dcd2104f3d20cb4929369b8fdc314c481c4a95",
+    "checked_at": "2026-11-23T13:21:02.002088+00:00",
+    "error": null
+  },
+  {
+    "url": "https://open.larksuite.com/document/home/synchronize-corporate-organizational-structure-to-feishu/obtain-the-application-access-token",
+    "final_url": "https://open.larksuite.com/document/home/synchronize-corporate-organizational-structure-to-feishu/obtain-the-application-access-token",
+    "http_status": 200,
+    "bytes_sampled": 7561,
+    "sha256_sample": "55c31bb868bd78f87685863ca01491a5721dd49101170e29398f7eec012926b0",
+    "checked_at": "2026-11-23T13:21:02.172917+00:00",
+    "error": null
+  },
+  {
+    "url": "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+    "final_url": "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+    "http_status": 200,
+    "bytes_sampled": 7514,
+    "sha256_sample": "e970fe8fc0c22c66ed2c77de8c15240319837ee5443ddf0db5f009e4e545cd5f",
+    "checked_at": "2026-11-23T13:21:02.219384+00:00",
+    "error": null
+  },
+  {
+    "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+    "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+    "http_status": 200,
+    "bytes_sampled": 7518,
+    "sha256_sample": "bc990d23806131487d9efe32cf68fdf407e8fb6c39eaccbe014340457a0af90d",
+    "checked_at": "2026-11-23T13:21:02.387749+00:00",
+    "error": null
+  },
+  {
+    "url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/im-v1/introduction",
+    "final_url": "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/im-v1/introduction",
+    "http_status": 200,
+    "bytes_sampled": 7514,
+    "sha256_sample": "c0800fe27702a988955b34e577f4aa036cc397711cf5691b5f373b061d0f5fbb",
+    "checked_at": "2026-11-23T13:21:02.388041+00:00",
+    "error": null
+  },
+  {
+    "url": "https://pipedrive.readme.io/docs/developer-sandbox-account",
+    "final_url": "https://pipedrive.readme.io/docs/developer-sandbox-account",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "7fa7768c6f6eb50942699c80f679edddaefa374de6e2726a49683f28e8f0f9e8",
+    "checked_at": "2026-11-23T13:21:02.388141+00:00",
+    "error": null
+  },
+  {
+    "url": "https://pipedrive.readme.io/docs/getting-started",
+    "final_url": "https://pipedrive.readme.io/docs/getting-started",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "1dcebd4d05bc9680b49520d751c9a9e81cbfb89b6005a721f28c4f2253c5b49f",
+    "checked_at": "2026-11-23T13:21:02.635686+00:00",
+    "error": null
+  },
+  {
+    "url": "https://pitchbook.com/help/PitchBook-api",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:21:02.718999+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://pitchbook.com/media/press-releases/lumonic-pitchbooks-portfolio-monitoring-platform-to-become-pitchbook-lens",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:21:02.836918+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://plaid.com/docs/api/",
+    "final_url": "https://plaid.com/docs/api/",
+    "http_status": 200,
+    "bytes_sampled": 82176,
+    "sha256_sample": "e93e26952934230ac11c5f684534dc71bdd94d5d3a2ac5641c851690e7a9d2ef",
+    "checked_at": "2026-11-23T13:21:02.837603+00:00",
+    "error": null
+  },
+  {
+    "url": "https://plaid.com/docs/sandbox/",
+    "final_url": "https://plaid.com/docs/sandbox/",
+    "http_status": 200,
+    "bytes_sampled": 114442,
+    "sha256_sample": "095f7fe52c8cb68069b0a8b6597481a5b9580dca4b4f9fb4d9081d2809e9f8f0",
+    "checked_at": "2026-11-23T13:21:02.838069+00:00",
+    "error": null
+  },
+  {
+    "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+    "final_url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+    "http_status": 200,
+    "bytes_sampled": 133653,
+    "sha256_sample": "afbf8b4898baf2f077cf1c5c06e7ca1bb5e0adc8792f79c46e27c9b87b657d0e",
+    "checked_at": "2026-11-23T13:21:03.164737+00:00",
+    "error": null
+  },
+  {
+    "url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+    "final_url": "https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/",
+    "http_status": 200,
+    "bytes_sampled": 139015,
+    "sha256_sample": "b608314dbca6ef22556bfd2a747e5963be6bb68630c534c35abc14fa59594425",
+    "checked_at": "2026-11-23T13:40:31.391565+00:00",
+    "error": null
+  },
+  {
+    "url": "https://reducto.ai/pricing",
+    "final_url": "https://reducto.ai/pricing",
+    "http_status": 200,
+    "bytes_sampled": 212962,
+    "sha256_sample": "e9f2d302627bff0cda16498651ea25f0bf66c4d0055c23bf90394ed9ad26bb27",
+    "checked_at": "2026-11-23T13:21:03.259346+00:00",
+    "error": null
+  },
+  {
+    "url": "https://seranking.com/api/data/getting-started/",
+    "final_url": "https://seranking.com/api/data/getting-started/",
+    "http_status": 200,
+    "bytes_sampled": 710132,
+    "sha256_sample": "2d85091c222578b1b48423e3d3ac9e5648c870c914622b8b8064db119d4a7e6c",
+    "checked_at": "2026-11-23T13:21:03.297131+00:00",
+    "error": null
+  },
+  {
+    "url": "https://seranking.com/api/integrations/mcp/?trk=article-ssr-frontend-pulse_little-text-block%2F",
+    "final_url": "https://seranking.com/api/integrations/mcp/?trk=article-ssr-frontend-pulse_little-text-block%2F",
+    "http_status": 200,
+    "bytes_sampled": 704049,
+    "sha256_sample": "ded6d08767c82c8e1df424e5fcef673568e78eeeace474ac3c30953ef3906107",
+    "checked_at": "2026-11-23T13:21:03.489863+00:00",
+    "error": null
+  },
+  {
+    "url": "https://seranking.com/api/project/getting-started/",
+    "final_url": "https://seranking.com/api/project/getting-started/",
+    "http_status": 200,
+    "bytes_sampled": 679377,
+    "sha256_sample": "8cb64588d8c9b8dc949f597525460186e99f2cbee06ad8fda7d068fa0f72f322",
+    "checked_at": "2026-11-23T13:21:03.645955+00:00",
+    "error": null
+  },
+  {
+    "url": "https://shopify.dev/docs/api",
+    "final_url": "https://shopify.dev/docs/api",
+    "http_status": 200,
+    "bytes_sampled": 360658,
+    "sha256_sample": "9238fd52af68bcd45d5822b39c73890ffa0b4f72f16fd0da778f1a3be4a5a543",
+    "checked_at": "2026-11-23T13:21:03.722011+00:00",
+    "error": null
+  },
+  {
+    "url": "https://shopify.dev/docs/api/usage/authentication",
+    "final_url": "https://shopify.dev/docs/api/usage/authentication",
+    "http_status": 200,
+    "bytes_sampled": 336400,
+    "sha256_sample": "79fbe8bb98f7a2b5a6f34644997fba6619b33219363c9f90d5be3353b208dc2c",
+    "checked_at": "2026-11-23T13:21:03.811247+00:00",
+    "error": null
+  },
+  {
+    "url": "https://shopify.dev/docs/apps/build/apis",
+    "final_url": "https://shopify.dev/docs/apps/build/apis",
+    "http_status": 200,
+    "bytes_sampled": 464992,
+    "sha256_sample": "76c87629e44b8ffec0575d874c88f5c7b31264747b02ff0bfbfb78a930fd29d3",
+    "checked_at": "2026-11-23T13:21:03.895276+00:00",
+    "error": null
+  },
+  {
+    "url": "https://shopify.dev/docs/apps/build/stores/development-stores",
+    "final_url": "https://shopify.dev/docs/apps/build/stores/development-stores",
+    "http_status": 200,
+    "bytes_sampled": 484793,
+    "sha256_sample": "2fa8dfcc907ded806a1785ebb46a37d301304887cf90552574e6ac0e815e0a9f",
+    "checked_at": "2026-11-23T13:21:03.895371+00:00",
+    "error": null
+  },
+  {
+    "url": "https://supabase.com/docs/guides/ai-tools/mcp",
+    "final_url": "https://supabase.com/docs/guides/ai-tools/mcp",
+    "http_status": 200,
+    "bytes_sampled": 327467,
+    "sha256_sample": "5eec5b792042206ba5f9c8abd25cad14051caffe72f9348f41dbe3c06e0172f8",
+    "checked_at": "2026-11-23T13:21:04.149083+00:00",
+    "error": null
+  },
+  {
+    "url": "https://supabase.com/docs/guides/platform/personal-access-tokens",
+    "final_url": "https://supabase.com/docs/guides/platform/personal-access-tokens",
+    "http_status": 200,
+    "bytes_sampled": 402151,
+    "sha256_sample": "93e22c7cb615c16388c06136d5e243fade31eed02c47d8f07a6d842b469e93d4",
+    "checked_at": "2026-11-23T13:21:04.280345+00:00",
+    "error": null
+  },
+  {
+    "url": "https://supabase.com/pricing",
+    "final_url": "https://supabase.com/pricing",
+    "http_status": 200,
+    "bytes_sampled": 405246,
+    "sha256_sample": "6df25f1ae5d612df476a58c93ec5abcbdd368f11a9d0ff55254fb71dbf75118e",
+    "checked_at": "2026-11-23T13:21:04.390652+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.aircall.io/en-gb/articles/10375395181853",
+    "final_url": "https://support.aircall.io/en-gb/articles/10375395181853",
+    "http_status": 200,
+    "bytes_sampled": 82916,
+    "sha256_sample": "19421aed9b5ec05348d7d5fbffac9442dcee55d00ee9c6d11b751a41bee1e114",
+    "checked_at": "2026-11-23T13:21:04.507887+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.airtable.com/articles/7735693959-Managing-API-call-limits-in-Airtable",
+    "final_url": "https://support.airtable.com/articles/7735693959-Managing-API-call-limits-in-Airtable",
+    "http_status": 200,
+    "bytes_sampled": 119941,
+    "sha256_sample": "d9fb16a4ea45e5a6e9d0217561ef89abd9d08859cb3ae29edd264c6c59332a63",
+    "checked_at": "2026-11-23T13:21:04.510132+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
+    "final_url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 122855,
+    "sha256_sample": "9bef869be89b4e5aee91339659b90a7f3f7c44134146acf92f6b74247dd11887",
+    "checked_at": "2026-11-23T13:21:04.626418+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.atlassian.com/atlassian-ai-gateway/docs/get-started-with-the-atlassian-remote-mcp-server/",
+    "final_url": "https://support.atlassian.com/atlassian-ai-gateway/docs/get-started-with-the-atlassian-remote-mcp-server/",
+    "http_status": 200,
+    "bytes_sampled": 373146,
+    "sha256_sample": "22c9195f503d8b06638dbac0530c863ef0b9090613ca00acf760a4ca82745dd1",
+    "checked_at": "2026-11-23T13:21:04.827089+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.copper.com/en/articles/8823347-generating-an-api-key",
+    "final_url": "https://support.copper.com/en/articles/8823347-generating-an-api-key",
+    "http_status": 200,
+    "bytes_sampled": 180984,
+    "sha256_sample": "d2a4ebdef32b0f7026cf3436f77c383ac84208340f96b2075de03362ee9795e4",
+    "checked_at": "2026-11-23T13:21:04.979138+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.copper.com/en/articles/9623758-copper-plans-feature-comparison",
+    "final_url": "https://support.copper.com/en/articles/9623758-copper-plans-feature-comparison",
+    "http_status": 200,
+    "bytes_sampled": 227260,
+    "sha256_sample": "0a38d524de7b89abb851fdc944ebd589883638a78f6f2964babe69a0d64c2a67",
+    "checked_at": "2026-11-23T13:21:04.988507+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots",
+    "final_url": "https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots",
+    "http_status": 200,
+    "bytes_sampled": 43645,
+    "sha256_sample": "2e9024e600b370558cad1132f6cc1b0f4a0c31b3a82635107db746363237ace6",
+    "checked_at": "2026-11-23T13:21:04.993402+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+    "final_url": "https://support.grain.com/en/articles/14811968-grain-mcp",
+    "http_status": 200,
+    "bytes_sampled": 104431,
+    "sha256_sample": "ba0a717b0d9777d00e2a9d453a35252b757bf72f188a6722097d925048ec51e1",
+    "checked_at": "2026-11-23T13:21:05.436815+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.grain.com/en/articles/15507288-grain-api",
+    "final_url": "https://support.grain.com/en/articles/15507288-grain-api",
+    "http_status": 200,
+    "bytes_sampled": 88541,
+    "sha256_sample": "c8f01ef42945f5638fd9ab5589546a71c6bc167e61fff54df77ff3eea2251345",
+    "checked_at": "2026-11-23T13:21:05.809607+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.liveagent.com/567924-Documentation?r=1",
+    "final_url": "https://support.liveagent.com/567924-Documentation?r=1",
+    "http_status": 200,
+    "bytes_sampled": 106689,
+    "sha256_sample": "267de05d91c464ff72a538e327048080d1fd32ec284b639630e85003f385c101",
+    "checked_at": "2026-11-23T13:21:05.941214+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.liveagent.com/docs/api/v3/",
+    "final_url": "https://support.liveagent.com/docs/api/v3/",
+    "http_status": 200,
+    "bytes_sampled": 6351,
+    "sha256_sample": "4277e4f81cccd97cf1dec6e8822e4e6d343e1a1e2343f89c2a03906d42e89618",
+    "checked_at": "2026-11-23T13:21:06.014005+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.plaid.com/hc/en-us/articles/16110110883479-How-are-Sandbox-Production-Trial-plan-and-Limited-Production-different",
+    "final_url": "https://support.plaid.com/hc/en-us/articles/16110110883479-How-are-Sandbox-Production-Trial-plan-and-Limited-Production-different",
+    "http_status": 200,
+    "bytes_sampled": 23951,
+    "sha256_sample": "3aa71e8bd09f44c54db49c7a90c1dfcb3f39cedaf7634a8cb1315513af1c54f4",
+    "checked_at": "2026-11-23T13:21:06.089111+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.ramp.com/accessing-the-developer-api/",
+    "final_url": "https://support.ramp.com/accessing-the-developer-api/",
+    "http_status": 200,
+    "bytes_sampled": 19162,
+    "sha256_sample": "b9bf4489e8cf5465ded9f3498e9d91b8b7b122f85d42d7165b41554ac9d76742",
+    "checked_at": "2026-11-23T13:21:06.455344+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
+    "final_url": "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
+    "http_status": 200,
+    "bytes_sampled": 126486,
+    "sha256_sample": "543c25f6151f7316ca2d4d033fc2831a6eb03fa6e99bb11e37d5ea2dc1a5e5a0",
+    "checked_at": "2026-11-23T13:21:06.644210+00:00",
+    "error": null
+  },
+  {
+    "url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+    "final_url": "https://support.zendesk.com/hc/en-us/articles/11400026079130-Connecting-external-AI-agents-to-the-Zendesk-MCP-server-or-Zendesk-AI-agents-EAP",
+    "http_status": 200,
+    "bytes_sampled": 96293,
+    "sha256_sample": "89472a5658eb3958a0c26d739ed08ea9c6f4ce8ac7f9b669b23781944cee5ce8",
+    "checked_at": "2026-11-23T13:40:31.391777+00:00",
+    "error": null
+  },
+  {
+    "url": "https://systeme.io/mcp",
+    "final_url": "https://systeme.io/mcp",
+    "http_status": 200,
+    "bytes_sampled": 356224,
+    "sha256_sample": "4339203832e4b2e131ba29ed5c0f1737624ca010d32c96702a1f853987a80cc0",
+    "checked_at": "2026-11-23T13:21:06.651838+00:00",
+    "error": null
+  },
+  {
+    "url": "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview",
+    "final_url": "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview",
+    "http_status": 200,
+    "bytes_sampled": 233656,
+    "sha256_sample": "b3d3a129fd54719f47a6ced66218d741de5fa1669d4f6e762ea382d958eb5c1b",
+    "checked_at": "2026-11-23T13:21:06.911664+00:00",
+    "error": null
+  },
+  {
+    "url": "https://transcriptapi.com/",
+    "final_url": "https://transcriptapi.com/",
+    "http_status": 200,
+    "bytes_sampled": 195194,
+    "sha256_sample": "2a07bacb4537455ecf7073323812254a127842b14bdbbb5cd563861257397111",
+    "checked_at": "2026-11-23T13:21:07.027214+00:00",
+    "error": null
+  },
+  {
+    "url": "https://transcriptapi.com/docs/",
+    "final_url": "https://transcriptapi.com/docs/",
+    "http_status": 200,
+    "bytes_sampled": 26441,
+    "sha256_sample": "8b5cec60a575b9c69d23f95ba952f0674210379d1d902caa67362525e20569bf",
+    "checked_at": "2026-11-23T13:21:07.040516+00:00",
+    "error": null
+  },
+  {
+    "url": "https://transcriptapi.com/docs/api/",
+    "final_url": "https://transcriptapi.com/docs/api/",
+    "http_status": 200,
+    "bytes_sampled": 460605,
+    "sha256_sample": "96b033d6ae9d2e45a82c719a8c606b4cf4f63b6200f811aefe265e8aae0f2892",
+    "checked_at": "2026-11-23T13:21:07.041111+00:00",
+    "error": null
+  },
+  {
+    "url": "https://twenty.com/",
+    "final_url": "https://twenty.com/",
+    "http_status": 200,
+    "bytes_sampled": 563802,
+    "sha256_sample": "a813b0ce4ccd0bddc08df581130b1551d4a683dd2d91161748a4659c3068c06a",
+    "checked_at": "2026-11-23T13:21:07.394616+00:00",
+    "error": null
+  },
+  {
+    "url": "https://university.clay.com/docs/clay-api-cli",
+    "final_url": "https://university.clay.com/docs/clay-api-cli",
+    "http_status": 200,
+    "bytes_sampled": 117924,
+    "sha256_sample": "02ef484fe90ccf8bf3428bd911ee39e08b232e9747757460a07ce056e7736084",
+    "checked_at": "2026-11-23T13:21:07.395511+00:00",
+    "error": null
+  },
+  {
+    "url": "https://university.clay.com/docs/mcp-settings",
+    "final_url": "https://university.clay.com/docs/mcp-settings",
+    "http_status": 200,
+    "bytes_sampled": 111112,
+    "sha256_sample": "d046f4e1715a52a32576bfe832716b22e7c5db6c6d17f14d94000d8c026b24f9",
+    "checked_at": "2026-11-23T13:21:07.395617+00:00",
+    "error": null
+  },
+  {
+    "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+    "final_url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+    "http_status": 200,
+    "bytes_sampled": 17715,
+    "sha256_sample": "8fca12a19addfb0c7bcd4e75c965942d1577aaec848013962179fefbd3bb3199",
+    "checked_at": "2026-11-23T13:21:07.726998+00:00",
+    "error": null
+  },
+  {
+    "url": "https://vercel.com/docs/rest-api",
+    "final_url": "https://vercel.com/docs/rest-api",
+    "http_status": 200,
+    "bytes_sampled": 74232,
+    "sha256_sample": "da6d642737a48f225594afc54d9247d4a89927a90d6e63fb6c7c75dc1cc686f1",
+    "checked_at": "2026-11-23T13:21:07.918002+00:00",
+    "error": null
+  },
+  {
+    "url": "https://woocommerce.com/document/woocommerce-rest-api/",
+    "final_url": "https://woocommerce.com/document/woocommerce-rest-api/",
+    "http_status": 200,
+    "bytes_sampled": 226935,
+    "sha256_sample": "595172c46192efae7fcd17b80aa48cb7a8ccaa5ddaef5409599a67701e8816f8",
+    "checked_at": "2026-11-23T13:21:08.013555+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.bigcommerce.com/pricing/",
+    "http_status": 403,
+    "checked_at": "2026-11-23T13:21:08.013944+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.consensus.app/home/api/",
+    "final_url": "https://www.consensus.app/home/api/",
+    "http_status": 200,
+    "bytes_sampled": 1000000,
+    "sha256_sample": "def17d4a3ebdf462d9afb4a40db704a3bbead5c58efde075895abd958772b78c",
+    "checked_at": "2026-11-23T13:21:08.034855+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.datadoghq.com/free-datadog-trial/",
+    "final_url": "https://www.datadoghq.com/free-datadog-trial/",
+    "http_status": 200,
+    "bytes_sampled": 207627,
+    "sha256_sample": "af369ceb804becf50037a8f2756ea6d4b160822d97802b23a75d443cc2a5c8df",
+    "checked_at": "2026-11-23T13:21:08.322086+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.developer.copper.com/introduction/authentication.html",
+    "final_url": "https://www.developer.copper.com/introduction/authentication.html",
+    "http_status": 200,
+    "bytes_sampled": 70541,
+    "sha256_sample": "6ff3724d8c2e11333642988e093c0dfd863f3149cb4b95b890a215f4324da805",
+    "checked_at": "2026-11-23T13:21:08.322474+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.fanbasis.com/auth/setup/signup",
+    "final_url": "https://www.fanbasis.com/auth/setup/signup",
+    "http_status": 200,
+    "bytes_sampled": 176659,
+    "sha256_sample": "614e68b338d8c9d55e69a5359e64aa0230a3d338a24d88a6f6cd621481bcf143",
+    "checked_at": "2026-11-23T13:21:08.427310+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.fathom.ai/features/mcp-server",
+    "final_url": "https://www.fathom.ai/features/mcp-server",
+    "http_status": 200,
+    "bytes_sampled": 276586,
+    "sha256_sample": "82e233fd5196d233c93deaf2c4bd173ecdbbc545ea1caa50c9b0dede5798b093",
+    "checked_at": "2026-11-23T13:40:32.106332+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.getharvest.com/pricing",
+    "final_url": "https://www.getharvest.com/pricing",
+    "http_status": 200,
+    "bytes_sampled": 104601,
+    "sha256_sample": "3a67cd0e8549c12e6133bf37153b64b5302e462eb6db459a5edf052d2c145e72",
+    "checked_at": "2026-11-23T13:21:08.535242+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.ipayx.ai/developers",
+    "final_url": "https://www.ipayx.ai/developers",
+    "http_status": 200,
+    "bytes_sampled": 9076,
+    "sha256_sample": "c06fc2734fbbcdc6f862c669382b5e66faca4ac60e0e84fa73dc19991d6e6a14",
+    "checked_at": "2026-11-23T13:21:08.713986+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.ipayx.ai/docs/api",
+    "final_url": "https://www.ipayx.ai/docs/api",
+    "http_status": 200,
+    "bytes_sampled": 9076,
+    "sha256_sample": "c06fc2734fbbcdc6f862c669382b5e66faca4ac60e0e84fa73dc19991d6e6a14",
+    "checked_at": "2026-11-23T13:21:08.716029+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2/group/endpoint-alerts",
+    "final_url": "https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2/group/endpoint-alerts",
+    "http_status": 200,
+    "bytes_sampled": 810774,
+    "sha256_sample": "d7cfe74bb247f68d51b257d38014015b40cd76e07a9f51a3f4ad49e4e75a9060",
+    "checked_at": "2026-11-23T13:21:08.716257+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/",
+    "final_url": "https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/",
+    "http_status": 200,
+    "bytes_sampled": 433810,
+    "sha256_sample": "ace4555912f3385cdd72ea95ba847f76c3477692e0244690788203d536921627",
+    "checked_at": "2026-11-23T13:21:08.982194+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.mongodb.com/docs/mcp-server/",
+    "final_url": "https://www.mongodb.com/docs/mcp-server/",
+    "http_status": 200,
+    "bytes_sampled": 421361,
+    "sha256_sample": "ef929de17792159fcc6efb4110d963823ac5faca833dca3c50666ec4e4c387ae",
+    "checked_at": "2026-11-23T13:21:09.151689+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.netlify.com/pricing/",
+    "final_url": "https://www.netlify.com/pricing/",
+    "http_status": 200,
+    "bytes_sampled": 272085,
+    "sha256_sample": "5cd48292af27806952520b95dd70db387d232ea248dae522b0c9bbf675166bbd",
+    "checked_at": "2026-11-23T13:21:09.280307+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.plain.com/blog/api-first-support-platforms",
+    "final_url": "https://www.plain.com/blog/api-first-support-platforms",
+    "http_status": 200,
+    "bytes_sampled": 685619,
+    "sha256_sample": "f99aeec1ded8a21b55194405c8d9fcaf5aa458a6e307e1a5776aa3144be8d415",
+    "checked_at": "2026-11-23T13:21:09.372361+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+    "final_url": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+    "http_status": 200,
+    "bytes_sampled": 102266,
+    "sha256_sample": "0712ee18b60c11b30550afc5cb43f12193d51c3d7e6df9b78215efd72880281d",
+    "checked_at": "2026-11-23T13:21:09.374486+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.twilio.com/docs/iam/api-keys",
+    "final_url": "https://www.twilio.com/docs/iam/api-keys",
+    "http_status": 200,
+    "bytes_sampled": 219141,
+    "sha256_sample": "f423acb685b68d3940126617f294617457a5317aab9ebd88de534d6a5baf8b95",
+    "checked_at": "2026-11-23T13:21:09.798403+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys",
+    "final_url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys",
+    "http_status": 200,
+    "bytes_sampled": 388941,
+    "sha256_sample": "72a02faadea0ecdbedebbbea344a2e4cff086ac4952d4412d46cfe3204e3da42",
+    "checked_at": "2026-11-23T13:21:09.894972+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan?save_locale=en",
+    "final_url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan?save_locale=en",
+    "http_status": 200,
+    "bytes_sampled": 258028,
+    "sha256_sample": "5b73e891648ba155c9035a94ffcbffa2813736ba059c13c32a3e1c3dccffb969",
+    "checked_at": "2026-11-23T13:21:09.987857+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.twilio.com/docs/usage/trials",
+    "final_url": "https://www.twilio.com/docs/usage/trials",
+    "http_status": 200,
+    "bytes_sampled": 409528,
+    "sha256_sample": "8fe6719735d0e19bcccd0022be9d64d340b7e1ef306c4044add06e4bfc448d99",
+    "checked_at": "2026-11-23T13:21:10.078901+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.twilio.com/en-us/products/email-api/pricing",
+    "final_url": "https://www.twilio.com/en-us/products/email-api/pricing",
+    "http_status": 200,
+    "bytes_sampled": 919879,
+    "sha256_sample": "c9a16a92beccb31a90be34d09e2a0ad23e4dcf169e3e85c5af001f1c346ad1ec",
+    "checked_at": "2026-11-23T13:21:10.112592+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.usepylon.com/pricing",
+    "final_url": "https://www.usepylon.com/pricing",
+    "http_status": 200,
+    "bytes_sampled": 204522,
+    "sha256_sample": "66699adb4d2ac80b289daa05d7b0ae8cfd6b79f17a611220946252e41a3ee0f9",
+    "checked_at": "2026-11-23T13:21:10.162986+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.usepylon.com/pylon-facts",
+    "final_url": "https://www.usepylon.com/pylon-facts",
+    "http_status": 200,
+    "bytes_sampled": 96882,
+    "sha256_sample": "ad8528179870b03a7a359000653e906ba5c276e92847ac91de08a9d9178134f5",
+    "checked_at": "2026-11-23T13:21:10.199745+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.waterfall.io/",
+    "final_url": "https://www.waterfall.io/",
+    "http_status": 200,
+    "bytes_sampled": 160065,
+    "sha256_sample": "1bafc05ca6e3874206b2ca574eede35e9615b642b54b0bdce580ef21edaa35f0",
+    "checked_at": "2026-11-23T13:21:10.427042+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.zoho.com/cliq/help/restapi/v2/",
+    "final_url": "https://www.zoho.com/cliq/help/restapi/v2/",
+    "http_status": 200,
+    "bytes_sampled": 800752,
+    "sha256_sample": "41ff9656052a83a6d5abbd9b1b15b89686a17924abaec7016f87ebb3b9f11dd4",
+    "checked_at": "2026-11-23T13:21:10.428777+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+    "final_url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+    "http_status": 200,
+    "bytes_sampled": 122471,
+    "sha256_sample": "dad7e25e06cf98387d99c016b7634a4a606290795d73d98fc1347c6b90582df6",
+    "checked_at": "2026-11-23T13:21:10.428841+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+    "final_url": "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+    "http_status": 200,
+    "bytes_sampled": 134313,
+    "sha256_sample": "19bf4ab5bb54a13dfadff44700e4ea9186d7f878107200a8ac98b999fa85d63c",
+    "checked_at": "2026-11-23T13:21:10.441634+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.zoho.com/crm/developer/docs/api/v8/api-limits.html",
+    "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/api-limits.html",
+    "http_status": 200,
+    "bytes_sampled": 24700,
+    "sha256_sample": "9b192e20309b23d3bc180bf68ac577e67a39c4abe81517e2031b9324c9da8df8",
+    "checked_at": "2026-11-23T13:21:10.817679+00:00",
+    "error": null
+  },
+  {
+    "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+    "final_url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+    "http_status": 200,
+    "bytes_sampled": 10269,
+    "sha256_sample": "708483cc211f9441a4c26eb043b22a1d845787aec2a19de71306064cc2710ede",
+    "checked_at": "2026-11-23T13:21:10.901137+00:00",
+    "error": null
+  }
+]

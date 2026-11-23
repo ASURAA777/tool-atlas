@@ -1,0 +1,267 @@
+{
+  "researched_at": "2026-11-23",
+  "agent": "Codex research subagent",
+  "method": "Batched web searches restricted toward official docs plus direct page reads; no authenticated product API calls.",
+  "human_verified": false,
+  "rows": 30,
+  "sources": [
+    "https://api.docs.dealcloud.com/docs",
+    "https://api.docs.dealcloud.com/docs/apikeys",
+    "https://api.docs.dealcloud.com/docs/token",
+    "https://attio.com/help/reference/apps/generating-an-api-key",
+    "https://attio.com/platform/developers?_rsc=1r34m",
+    "https://close.com/crm-trial",
+    "https://core.telegram.org/bots/api",
+    "https://core.telegram.org/bots/features",
+    "https://dev.frontapp.com/docs/mcp-server",
+    "https://dev.frontapp.com/docs/welcome",
+    "https://dev.frontapp.com/reference/introduction",
+    "https://developer.aircall.io/docs/authentication",
+    "https://developer.aircall.io/docs/oauth",
+    "https://developer.close.com/api/overview",
+    "https://developer.close.com/integrations/create-an-oauth-app",
+    "https://developer.close.com/mcp/",
+    "https://developer.gladly.com/rest/",
+    "https://developer.helpscout.com/",
+    "https://developer.helpscout.com/docs-api/",
+    "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+    "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+    "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+    "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart.html",
+    "https://developer.vonage.com/en/dashboard/getting-started",
+    "https://developer.vonage.com/en/getting-started/concepts/authentication",
+    "https://developer.vonage.com/en/getting-started/overview?source=reports",
+    "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+    "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+    "https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform/",
+    "https://developers.facebook.com/documentation/business-messaging/whatsapp/access-tokens/",
+    "https://developers.freshdesk.com/api/",
+    "https://developers.freshdesk.com/api/#ratelimit",
+    "https://developers.gorgias.com/docs/access-tokens-api-keys",
+    "https://developers.gorgias.com/docs/overview",
+    "https://developers.gorgias.com/reference/authentication",
+    "https://developers.hubspot.com/ai-tools/mcp",
+    "https://developers.hubspot.com/changelog/legacy-private-app-creation-sunset?trk=article-ssr-frontend-pulse_little-text-block",
+    "https://developers.hubspot.com/changelog/new-marketplace-distribution-app-install-limits",
+    "https://developers.hubspot.com/developer-platform-basics",
+    "https://developers.intercom.com/docs",
+    "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "https://developers.podio.com/",
+    "https://developers.podio.com/authentication",
+    "https://developers.podio.com/index/faq",
+    "https://docs.discord.com/developers/quick-start/getting-started",
+    "https://docs.helpscout.com/article/1140-mailbox-api",
+    "https://docs.helpscout.com/article/1779-help-scout-mcp-server",
+    "https://docs.slack.dev/",
+    "https://docs.slack.dev/ai/slack-mcp-server",
+    "https://docs.slack.dev/authentication/installing-with-oauth/",
+    "https://docs.twenty.com/developers/extend/api",
+    "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "https://help.gladly.com/docs/generate-api-tokens-and-create-webhooks/",
+    "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "https://help.plain.com/article/pricing",
+    "https://help.twilio.com/articles/9318455807771",
+    "https://open.larksuite.com/document/home/synchronize-corporate-organizational-structure-to-feishu/obtain-the-application-access-token",
+    "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+    "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+    "https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/reference/im-v1/introduction",
+    "https://pipedrive.readme.io/docs/developer-sandbox-account",
+    "https://pipedrive.readme.io/docs/getting-started",
+    "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+    "https://support.aircall.io/en-gb/articles/10375395181853",
+    "https://support.copper.com/en/articles/8823347-generating-an-api-key",
+    "https://support.copper.com/en/articles/9623758-copper-plans-feature-comparison",
+    "https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots",
+    "https://support.liveagent.com/567924-Documentation?r=1",
+    "https://support.liveagent.com/docs/api/v3/",
+    "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview",
+    "https://twenty.com/",
+    "https://www.developer.copper.com/introduction/authentication.html",
+    "https://www.plain.com/blog/api-first-support-platforms",
+    "https://www.twilio.com/docs/iam/api-keys",
+    "https://www.twilio.com/docs/usage/trials",
+    "https://www.usepylon.com/pricing",
+    "https://www.usepylon.com/pylon-facts",
+    "https://www.zoho.com/cliq/help/restapi/v2/",
+    "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+    "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+    "https://www.zoho.com/crm/developer/docs/api/v8/api-limits.html",
+    "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+  ],
+  "corrections": [
+    {
+      "app": "Zendesk",
+      "field": "auth",
+      "type": "observed_doc_conflict",
+      "before": "Legacy API tokens described as an available authentication method.",
+      "after": "New creation disabled October 27, 2026; existing tokens retire April 30, 2027; build with OAuth.",
+      "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+      "reason": "Current dated migration guide narrows the general security/auth overview; no prior agent row was published."
+    },
+    {
+      "app": "HubSpot",
+      "field": "auth",
+      "type": "observed_doc_conflict",
+      "before": "Private app access tokens described as the standard internal integration method.",
+      "after": "New legacy private-app creation is disabled; use Service Keys or modern project apps.",
+      "url": "https://developers.hubspot.com/changelog/legacy-private-app-creation-sunset?trk=article-ssr-frontend-pulse_little-text-block",
+      "reason": "Dated 2026 sunset supersedes historical onboarding material; existing legacy apps continue."
+    },
+    {
+      "app": "Zoho CRM",
+      "field": "access",
+      "type": "observed_doc_conflict",
+      "before": "Legacy 2013 page lists 250 requests/day for Free.",
+      "after": "Current v8 limits list 5,000 credits/day for Free.",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/api-limits.html",
+      "reason": "Versioned v8 documentation takes precedence over indexed 2013 release notes."
+    },
+    {
+      "app": "Plain",
+      "field": "api",
+      "type": "observed_doc_conflict",
+      "before": "Vendor comparison article says no restrictive rate limits.",
+      "after": "Support documentation lists plan-specific rate limits of 450/600/1,000 requests per minute.",
+      "url": "https://help.plain.com/article/rate-limits",
+      "reason": "Operational support reference is more precise than broad marketing language."
+    },
+    {
+      "app": "Close",
+      "field": "access",
+      "type": "observed_doc_conflict",
+      "before": "Some indexed pricing variants indicate API access is uniformly included.",
+      "after": "Latest indexed comparison differentiates high-volume API access for Solo versus higher plans; exact Solo entitlement left unresolved.",
+      "url": "https://close.com/pricing?sa=X",
+      "reason": "Conflicting variants of vendor pricing require human follow-up; no precise plan entitlement asserted."
+    }
+  ],
+  "unresolved": [
+    {
+      "app": "Salesforce",
+      "notes": "Buildability is a docs-based assessment, not an authenticated API test.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Pipedrive",
+      "notes": "Sandbox form processing was not tested; do not equate a form with guaranteed instant provisioning.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Podio",
+      "notes": "The API key is a client credential, not a substitute for OAuth access-token authentication.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Zoho CRM",
+      "notes": "Current v8 limits supersede a still-indexed 2013 API limits page.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Copper",
+      "notes": "",
+      "confidence": "medium",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "DealCloud",
+      "notes": "Public documentation does not establish free provisioning or partner eligibility.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Zendesk",
+      "notes": "As-of date 2026-11-23 matters: a generic API-token quickstart would be wrong for a new account.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Intercom",
+      "notes": "Customer-provided private tokens are not an acceptable public integration pattern under Intercom terms.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Freshdesk",
+      "notes": "OAuth application registration was not tested; API key route is the directly documented prototype path.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Pylon",
+      "notes": "",
+      "confidence": "medium",
+      "mcp": "official"
+    },
+    {
+      "app": "LiveAgent",
+      "notes": "Free trial evidenced; perpetual-free plan API eligibility is not asserted.",
+      "confidence": "medium",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Gorgias",
+      "notes": "",
+      "confidence": "medium",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Gladly",
+      "notes": "A documented API is not proof of a free developer tenant.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Twilio",
+      "notes": "Credentials were not issued and no paid messages were sent.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Zoho Cliq",
+      "notes": "",
+      "confidence": "medium",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Pumble",
+      "notes": "Do not assume APIs are paid-only just because the service has paid plans.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Discord",
+      "notes": "No account or bot was created in this research pass.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Telegram",
+      "notes": "Do not conflate Bot API with MTProto user-account authentication.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "WhatsApp Business",
+      "notes": "Graph API is not GraphQL. Current overview calls token auth OAuth rather than OAuth2; preserve that distinction.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Aircall",
+      "notes": "Do not infer that public documentation makes OAuth client credentials self-serve.",
+      "confidence": "high",
+      "mcp": "not_verified"
+    },
+    {
+      "app": "Vonage",
+      "notes": "",
+      "confidence": "high",
+      "mcp": "not_verified"
+    }
+  ]
+}

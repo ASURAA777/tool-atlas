@@ -1,0 +1,39 @@
+{
+  "total": 100,
+  "categories": 10,
+  "verdicts": {
+    "conditional": 40,
+    "ready": 58,
+    "unknown": 2
+  },
+  "auth": {
+    "OAuth2": 67,
+    "API key": 40,
+    "Token": 48,
+    "Basic": 12,
+    "OAuth (unspecified)": 1,
+    "OAuth1": 1,
+    "Unknown": 2,
+    "None": 3,
+    "Other": 4
+  },
+  "gates": {
+    "Paid / admin": 15,
+    "Review / approval": 19,
+    "Self-serve / trial": 53,
+    "Outreach": 6,
+    "Unresolved": 5,
+    "Other conditions": 2
+  },
+  "conditional_gates": {
+    "Paid / admin": 13,
+    "Review / approval": 13,
+    "Outreach": 6,
+    "Self-serve / trial": 3,
+    "Unresolved": 3,
+    "Other conditions": 2
+  },
+  "official_mcp": 57,
+  "sources": 276,
+  "human_reviewed": 0
+}

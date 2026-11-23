@@ -1,0 +1,333 @@
+{
+  "researched_on": "2026-11-23",
+  "agent": "research_61_90",
+  "method": "AI-led bounded web searches and direct opens of official vendor documentation. Facts are documentation findings, not authenticated API execution or human verification.",
+  "apps": [
+    {
+      "id": 61,
+      "name": "GitHub",
+      "source_urls": [
+        "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+        "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/customize-copilot/extend-copilot-with-tools-and-context/set-up-the-github-mcp-server",
+        "https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/copilot-for-common-tasks/use-the-github-mcp-server"
+      ],
+      "unresolved": "GraphQL breadth not separately audited in this pass; scope prototype to evidenced REST operations."
+    },
+    {
+      "id": 62,
+      "name": "Vercel",
+      "source_urls": [
+        "https://vercel.com/docs/rest-api",
+        "https://vercel.com/docs/agent-resources/vercel-mcp"
+      ],
+      "unresolved": "Own REST wrapper is straightforward; official MCP client eligibility can constrain custom clients."
+    },
+    {
+      "id": 63,
+      "name": "Netlify",
+      "source_urls": [
+        "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/",
+        "https://www.netlify.com/pricing/",
+        "https://github.com/netlify/netlify-mcp"
+      ],
+      "unresolved": "No general access blocker; respect hosting credit and plan limits."
+    },
+    {
+      "id": 64,
+      "name": "Cloudflare",
+      "source_urls": [
+        "https://developers.cloudflare.com/api/resources/accounts/methods/create/index.html",
+        "https://developers.cloudflare.com/fundamentals/account/create-account/",
+        "https://developers.cloudflare.com/fundamentals/api/reference/permissions/",
+        "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/"
+      ],
+      "unresolved": "No general blocker; token roles and paid product entitlements constrain some actions."
+    },
+    {
+      "id": 65,
+      "name": "Supabase",
+      "source_urls": [
+        "https://supabase.com/docs/guides/platform/personal-access-tokens",
+        "https://supabase.com/pricing",
+        "https://supabase.com/docs/guides/ai-tools/mcp"
+      ],
+      "unresolved": "PAT proof is strongest; project API-key/JWT and OAuth details should be checked for the chosen endpoint before implementation."
+    },
+    {
+      "id": 66,
+      "name": "Neo4j",
+      "source_urls": [
+        "https://neo4j.com/docs/query-api/current/authentication-authorization/",
+        "https://neo4j.com/pricing/",
+        "https://neo4j.com/docs/mcp/current/authentication/"
+      ],
+      "unresolved": "Basic works for Community; do not assume bearer/SSO across all editions."
+    },
+    {
+      "id": 67,
+      "name": "Snowflake",
+      "source_urls": [
+        "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication",
+        "https://docs.snowflake.com/en/user-guide/admin-trial-account",
+        "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp"
+      ],
+      "unresolved": "Trial is suitable for SQL; production costs and account roles apply, and trial AI access is restricted."
+    },
+    {
+      "id": 68,
+      "name": "MongoDB Atlas",
+      "source_urls": [
+        "https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2/group/endpoint-alerts",
+        "https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/",
+        "https://www.mongodb.com/docs/mcp-server/"
+      ],
+      "unresolved": "Do not confuse Atlas administration REST with database CRUD or retired Data API."
+    },
+    {
+      "id": 69,
+      "name": "Datadog",
+      "source_urls": [
+        "https://docs.datadoghq.com/api/latest/authentication/",
+        "https://www.datadoghq.com/free-datadog-trial/",
+        "https://docs.datadoghq.com/agentic_onboarding/"
+      ],
+      "unresolved": "OAuth is documented for integration apps; full publishing requirements were not audited."
+    },
+    {
+      "id": 70,
+      "name": "Sentry",
+      "source_urls": [
+        "https://docs.sentry.io/api/auth/",
+        "https://docs.sentry.io/api/guides/create-auth-token/",
+        "https://docs.sentry.io/api/",
+        "https://docs.sentry.io/product/sentry-mcp/",
+        "https://mcp.sentry.dev/"
+      ],
+      "unresolved": "Free-plan existence confirmed via vendor blog; exact free feature coverage needs endpoint-specific validation."
+    },
+    {
+      "id": 71,
+      "name": "Notion",
+      "source_urls": [
+        "https://developers.notion.com/guides/authorization/overview",
+        "https://developers.notion.com/reference/create-view",
+        "https://developers.notion.com/guides/mcp/overview"
+      ],
+      "unresolved": "Free plan exists; actual signup and token generation were not performed."
+    },
+    {
+      "id": 72,
+      "name": "Airtable",
+      "source_urls": [
+        "https://airtable.com/developers/web/api/authentication",
+        "https://support.airtable.com/articles/7735693959-Managing-API-call-limits-in-Airtable",
+        "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server"
+      ],
+      "unresolved": "Free monthly request cap and per-base rate limit; use PAT/OAuth, not retired API keys."
+    },
+    {
+      "id": 73,
+      "name": "Linear",
+      "source_urls": [
+        "https://linear.app/developers/graphql",
+        "https://linear.app/pricing?sid=1efb625a-93db-4d70-8c6b-db489c10728f",
+        "https://linear.app/docs/mcp"
+      ],
+      "unresolved": "No general access blocker; GraphQL errors can coexist with HTTP 200."
+    },
+    {
+      "id": 74,
+      "name": "Jira",
+      "source_urls": [
+        "https://developer.atlassian.com/cloud/jira/platform/security-overview/",
+        "https://developer.atlassian.com/cloud/jira/software/rest/intro/",
+        "https://support.atlassian.com/atlassian-ai-gateway/docs/get-started-with-the-atlassian-remote-mcp-server/"
+      ],
+      "unresolved": "Admin_approval denotes customer workspace policy risk, not mandatory vendor partnership."
+    },
+    {
+      "id": 75,
+      "name": "Asana",
+      "source_urls": [
+        "https://developers.asana.com/docs/authentication",
+        "https://developers.asana.com/docs/overview",
+        "https://developers.asana.com/docs/using-asanas-mcp-server"
+      ],
+      "unresolved": "Core tasks/projects are easy; domain-wide service accounts and premium endpoints are separate."
+    },
+    {
+      "id": 76,
+      "name": "Monday.com",
+      "source_urls": [
+        "https://developer.monday.com/api-reference/docs/authentication",
+        "https://developer.monday.com/apps/docs/oauth",
+        "https://developer.monday.com/api-reference/docs/build-on-monday-with-ai"
+      ],
+      "unresolved": "No core blocker; distinguish free developer test account from production plan entitlements."
+    },
+    {
+      "id": 77,
+      "name": "ClickUp",
+      "source_urls": [
+        "https://developer.clickup.com/docs/authentication",
+        "https://developer.clickup.com/docs/apis-available-by-plan",
+        "https://developer.clickup.com/docs/Getting%20Started",
+        "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server"
+      ],
+      "unresolved": "Limit initial toolkit to core endpoints; Enterprise-only user/guest management is excluded."
+    },
+    {
+      "id": 78,
+      "name": "Coda",
+      "source_urls": [
+        "https://help.coda.io/hc/en-us/articles/39555941038349-Does-Coda-have-an-API",
+        "https://help.coda.io/hc/en-us/articles/39555760015757-Overview-Doc-limits",
+        "https://help.coda.io/hc/en-us/articles/44722661982989-Connect-to-the-Coda-MCP"
+      ],
+      "unresolved": "Do not confuse auth supported by outbound Coda Packs with authentication to Coda's own API."
+    },
+    {
+      "id": 79,
+      "name": "Smartsheet",
+      "source_urls": [
+        "https://developers.smartsheet.com/api/smartsheet/introduction",
+        "https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication",
+        "https://developers.smartsheet.com/register"
+      ],
+      "unresolved": "Paid-plan eligibility, not an absent API; obtain eligible account before implementation testing."
+    },
+    {
+      "id": 80,
+      "name": "Harvest",
+      "source_urls": [
+        "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+        "https://www.getharvest.com/pricing"
+      ],
+      "unresolved": "MCP discovery was not completed for Harvest; not a negative finding."
+    },
+    {
+      "id": 81,
+      "name": "Stripe",
+      "source_urls": [
+        "https://docs.stripe.com/keys",
+        "https://docs.stripe.com/mcp"
+      ],
+      "unresolved": "Ready means sandbox toolkit viable, not live-money execution tested."
+    },
+    {
+      "id": 82,
+      "name": "Plaid",
+      "source_urls": [
+        "https://plaid.com/docs/api/",
+        "https://plaid.com/docs/sandbox/",
+        "https://support.plaid.com/hc/en-us/articles/16110110883479-How-are-Sandbox-Production-Trial-plan-and-Limited-Production-different"
+      ],
+      "unresolved": "API credential method is not the same as bank OAuth consent; MCP existence does not prove production data access."
+    },
+    {
+      "id": 83,
+      "name": "Binance",
+      "source_urls": [
+        "https://developers.binance.com/en/docs/products/spot/rest-api"
+      ],
+      "unresolved": "No financial transactions performed; Testnet and geographic restrictions remain explicit follow-up checks."
+    },
+    {
+      "id": 84,
+      "name": "Paygent Connect",
+      "source_urls": [
+        "https://docs.nmi.com/docs/direct-connect",
+        "https://api.paygent.tech/docs"
+      ],
+      "unresolved": "Bounded search: Paygent Connect NMI payment API. Excluded another candidate's assignment from evidence. Unknown is not a finding that the product does not exist."
+    },
+    {
+      "id": 85,
+      "name": "iPayX",
+      "source_urls": [
+        "https://www.ipayx.ai/docs/api",
+        "https://www.ipayx.ai/developers"
+      ],
+      "unresolved": "Compare /fx-public-api-v1 in API docs with /fx-audit-engine in developer page before implementing. No endpoint call or key acquisition performed."
+    },
+    {
+      "id": 86,
+      "name": "QuickBooks",
+      "source_urls": [
+        "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+        "https://developer.intuit.com/app/developer/qbo/docs/get-started/get-client-id-and-client-secret"
+      ],
+      "unresolved": "MCP not independently established. Endpoint-level accounting breadth needs a follow-up reference pass."
+    },
+    {
+      "id": 87,
+      "name": "Xero",
+      "source_urls": [
+        "https://developer.xero.com/documentation/guides/oauth2/overview",
+        "https://developer.xero.com/documentation/guides/oauth2/tenants/",
+        "https://developer.xero.com/documentation/getting-started-guide/",
+        "https://developer.xero.com/changelog?rl_entry=f23bc9b7d710"
+      ],
+      "unresolved": "REST prototype is self-serve; official hosted MCP is paid-tier gated and scale incurs fees."
+    },
+    {
+      "id": 88,
+      "name": "Brex",
+      "source_urls": [
+        "https://developer.brex.com/guides/authentication",
+        "https://developer.brex.com/guides/partner_authentication",
+        "https://developer.brex.com/docs/faq"
+      ],
+      "unresolved": "Apparent production-only versus staging contradiction resolves by customer versus partner context."
+    },
+    {
+      "id": 89,
+      "name": "Ramp",
+      "source_urls": [
+        "https://docs.ramp.com/developer-api/v1/guides/getting-started",
+        "https://support.ramp.com/accessing-the-developer-api/",
+        "https://docs.ramp.com/developer-api/v1/developer-mcp"
+      ],
+      "unresolved": "Do not label Ramp's API itself Basic auth: Basic is used only when exchanging client credentials for an OAuth token."
+    },
+    {
+      "id": 90,
+      "name": "PitchBook",
+      "source_urls": [
+        "https://pitchbook.com/help/PitchBook-api",
+        "https://pitchbook.com/media/press-releases/lumonic-pitchbooks-portfolio-monitoring-platform-to-become-pitchbook-lens"
+      ],
+      "unresolved": "Standalone API license and vendor onboarding; platform subscription alone is insufficient."
+    }
+  ],
+  "limitations": [
+    "No paid accounts or product credentials acquired; no authenticated functional tests.",
+    "Some access, auth, and surface breadth classifications rely on official indexed search excerpts instead of complete page reads.",
+    "MCP not_verified means not established in this bounded pass, never proof of nonexistence.",
+    "Paygent Connect identity unresolved; unrelated Paygent and NMI references are disambiguation evidence only.",
+    "Exact country/account eligibility and endpoint-plan coverage require implementation-specific checks."
+  ],
+  "correction_observations": [
+    {
+      "app": "Airtable",
+      "issue": "Legacy API keys are retired; PAT and OAuth supported."
+    },
+    {
+      "app": "Brex",
+      "issue": "Customer docs production-only versus partner staging is a contextual distinction."
+    },
+    {
+      "app": "Ramp",
+      "issue": "Basic auth belongs to OAuth token exchange, not business API calls. Documentation MCP is retired; account MCP exists."
+    },
+    {
+      "app": "PitchBook",
+      "issue": "PitchBook Lens MCP must not be conflated with licensed research API."
+    },
+    {
+      "app": "iPayX",
+      "issue": "Official docs disagree on base path and onboarding; conditional verdict retained."
+    }
+  ],
+  "human_verified": false
+}

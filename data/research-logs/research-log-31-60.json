@@ -1,0 +1,412 @@
+{
+  "checked_at": "2026-11-23",
+  "researcher": "AI research agent",
+  "human_review": false,
+  "method": "Primary-domain web search followed by focused document reads. No credentials provisioned or API calls authenticated.",
+  "apps": [
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "sources": [
+        "https://developers.google.cn/google-ads/api/docs/api-policy/developer-token?hl=en",
+        "https://developers.google.com/google-ads/api/docs/developer-toolkit/api-explorer",
+        "https://developers.google.com/google-ads/api/docs/developer-toolkit/mcp-server"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 32,
+      "name": "Meta Ads",
+      "sources": [
+        "https://developers.facebook.com/documentation/ads-commerce/marketing-api/get-started/authorization"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "LinkedIn Ads",
+      "sources": [
+        "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq?view=li-lms-2026-05",
+        "https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2026-10"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "GoHighLevel",
+      "sources": [
+        "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/",
+        "https://help.gohighlevel.com/support/solutions/articles/155000003054-private-integrations-everything-you-need-to-know?fp_ref=getfreetrail&fp_sid=api-pit",
+        "https://marketplace.gohighlevel.com/docs/Authorization/OAuth2.0/index.html"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Mailchimp",
+      "sources": [
+        "https://mailchimp.com/legal/api_use/",
+        "https://mailchimp.com/developer/marketing/build/get-started/create-an-account"
+      ],
+      "unresolved": [
+        "Free-plan credential creation was not exercised; readiness describes the documented self-service path.",
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Klaviyo",
+      "sources": [
+        "https://help.klaviyo.com/hc/en-us/articles/115005062267",
+        "https://developers.klaviyo.com/en/docs/set_up_oauth",
+        "https://developers.klaviyo.com/en/docs/create_a_test_account",
+        "https://developers.klaviyo.com/en/docs/connect_to_the_klaviyo_mcp_server"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 37,
+      "name": "systeme.io",
+      "sources": [
+        "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+        "https://systeme.io/mcp",
+        "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp?sa=sa0024558361f5d7443882b1862ee00908b6e7c72a"
+      ],
+      "unresolved": [
+        "Marketing MCP page advertises broader actions than the narrower help guide; do not assume all marketing claims are REST endpoints."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Pinterest",
+      "sources": [
+        "https://developer.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/",
+        "https://developers.pinterest.com/docs/developer-tools/quickstart-tools/",
+        "https://developer.pinterest.com/docs/developer-tools/sandbox/"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Threads (Meta)",
+      "sources": [
+        "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api"
+      ],
+      "unresolved": [
+        "Official Meta-owned Postman collection used as fallback. Production gate not inferred from unrelated Facebook APIs.",
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 40,
+      "name": "SendGrid",
+      "sources": [
+        "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys",
+        "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan?save_locale=en",
+        "https://www.twilio.com/en-us/products/email-api/pricing"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Shopify",
+      "sources": [
+        "https://shopify.dev/docs/api/usage/authentication",
+        "https://shopify.dev/docs/apps/build/stores/development-stores",
+        "https://shopify.dev/docs/apps/build/apis",
+        "https://shopify.dev/docs/api"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 42,
+      "name": "WooCommerce",
+      "sources": [
+        "https://developer.woocommerce.com/docs/apis/rest-api/",
+        "https://woocommerce.com/document/woocommerce-rest-api/"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "BigCommerce",
+      "sources": [
+        "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+        "https://www.bigcommerce.com/pricing/"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 44,
+      "name": "Salesforce Commerce Cloud",
+      "sources": [
+        "https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-api-authentication.html",
+        "https://help.salesforce.com/s/articleView?id=cc.b2c_account_manager_add_api_client_id.htm&language=en_US&type=5",
+        "https://help.salesforce.com/s/articleView?id=000391273&language=en_US&type=1"
+      ],
+      "unresolved": [
+        "Do not confuse generic Salesforce Developer Edition with Commerce Cloud sandbox eligibility.",
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Magento (Adobe Commerce)",
+      "sources": [
+        "https://developer.adobe.com/commerce/webapi/rest/",
+        "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+        "https://developer.adobe.com/commerce/webapi/"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Squarespace",
+      "sources": [
+        "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions",
+        "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
+        "https://developers.squarespace.com/mcp/tools/commerce"
+      ],
+      "unresolved": [
+        "Official pages conflict on exact plan naming; mark paid without claiming Commerce Advanced is the only current eligible plan."
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Ecwid",
+      "sources": [
+        "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Gumroad",
+      "sources": [
+        "https://gumroad.com/help/article/280-create-application-api",
+        "https://gumroad.com/help/article/76-license-keys",
+        "https://gumroad.com/help/article/355-connect-ai-assistants-to-gumroad",
+        "https://gumroad.com/mcp"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 49,
+      "name": "Amazon Selling Partner",
+      "sources": [
+        "https://developer-docs.amazon/sp-api/lang-en_en/docs/onboarding-step-6-set-up-the-authorization-workflow",
+        "https://developer-docs.amazon/sp-api/docs/tutorial-test-selling-partner-api-endpoints"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 50,
+      "name": "fanbasis",
+      "sources": [
+        "https://www.fanbasis.com/auth/setup/signup"
+      ],
+      "unresolved": [
+        "Direct fanbasis.com fetch returned 403; official-domain search found signup but no authoritative API reference. This is not evidence that no API exists.",
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 51,
+      "name": "DataForSEO",
+      "sources": [
+        "https://dataforseo.com/dev-starter-kit",
+        "https://dataforseo.com/pricing",
+        "https://github.com/dataforseo/mcp-server-typescript/blob/master/SKILL.md",
+        "https://dataforseo.com/model-context-protocol"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 52,
+      "name": "SE Ranking",
+      "sources": [
+        "https://seranking.com/api/data/getting-started/",
+        "https://help.seranking.com/hc/en-us/articles/22447958135068-Getting-Started-with-SE-Ranking-s-API",
+        "https://seranking.com/api/project/getting-started/",
+        "https://seranking.com/api/integrations/mcp/?trk=article-ssr-frontend-pulse_little-text-block%2F"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 53,
+      "name": "Ahrefs",
+      "sources": [
+        "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+        "https://help.ahrefs.com/en/articles/6559232-about-api-v3",
+        "https://docs.ahrefs.com/en/api/docs/changelog",
+        "https://docs.ahrefs.com/en/mcp/docs/introduction"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 54,
+      "name": "MrScraper",
+      "sources": [
+        "https://docs.mrscraper.com/docs/api/authentication",
+        "https://mrscraper.com/pricing",
+        "https://docs.mrscraper.com/docs/guides/programmatically"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Apify",
+      "sources": [
+        "https://github.com/apify/apify-mcp-server/blob/master/README.md",
+        "https://docs.apify.com/api/v2"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 56,
+      "name": "Firecrawl",
+      "sources": [
+        "https://github.com/firecrawl/firecrawl-mcp-server",
+        "https://github.com/firecrawl/firecrawl-docs/blob/main/rate-limits.mdx"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 57,
+      "name": "Bright Data",
+      "sources": [
+        "https://github.com/brightdata/opencode-brightdata/blob/main/skills/bright-data-mcp/references/mcp-setup.md",
+        "https://docs.brightdata.com/ai/mcp-server/overview"
+      ],
+      "unresolved": []
+    },
+    {
+      "id": 58,
+      "name": "Sherlock",
+      "sources": [
+        "https://github.com/sherlock-project/sherlock?ref=weeklyfoo",
+        "https://github.com/sherlock-project/sherlockproject.xyz/blob/master/installation.mdx"
+      ],
+      "unresolved": [
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Waterfall.io",
+      "sources": [
+        "https://docs.waterfall.io/v1/introduction",
+        "https://www.waterfall.io/"
+      ],
+      "unresolved": [
+        "Homepage also contains old x-waterfall-api-key examples and a broken docs link; current docs specify x-api-key. Not the unrelated Waterfall SMS company.",
+        "MCP not verified in bounded pass; absence not established."
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Clay",
+      "sources": [
+        "https://university.clay.com/docs/clay-api-cli",
+        "https://university.clay.com/docs/mcp-settings"
+      ],
+      "unresolved": []
+    }
+  ],
+  "conflicts": [
+    {
+      "type": "observed_doc_conflict",
+      "app": "Google Ads",
+      "field": "auth",
+      "before": "Older REST auth page says developer-token required.",
+      "after": "Current migration and API Explorer docs say developer tokens were sunset Sept 9, 2026; project access determines entitlement.",
+      "url": "https://developers.google.cn/google-ads/api/docs/api-policy/developer-token?hl=en",
+      "other_url": "https://developers.google.com/google-ads/api/rest/auth",
+      "reason": "Prefer explicitly dated migration guidance, corroborated by current API Explorer. No prior agent classification was published."
+    },
+    {
+      "type": "observed_doc_conflict",
+      "app": "Squarespace",
+      "field": "access",
+      "before": "Commerce API guide says custom apps require Commerce Advanced.",
+      "after": "Current help availability list also names Core, Plus and Advanced; row says paid and flags exact plan ambiguity.",
+      "url": "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys",
+      "other_url": "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions",
+      "reason": "Official pages conflict, including internally; avoided exclusive plan assertion."
+    },
+    {
+      "type": "observed_doc_conflict",
+      "app": "Clay",
+      "field": "access",
+      "before": "Pricing FAQ lists Clay API access under Enterprise.",
+      "after": "Dedicated developer docs say API/CLI available on all plans; advanced table queries need Enterprise.",
+      "url": "https://university.clay.com/docs/clay-api-cli",
+      "other_url": "https://www.clay.com/pricing?facet1=branding-communication",
+      "reason": "Specific current developer surface documentation is more precise than broad pricing bullet."
+    },
+    {
+      "type": "observed_doc_conflict",
+      "app": "Waterfall.io",
+      "field": "auth",
+      "before": "Homepage example uses x-waterfall-api-key.",
+      "after": "Current API introduction says x-api-key; homepage later examples agree.",
+      "url": "https://docs.waterfall.io/v1/introduction",
+      "other_url": "https://www.waterfall.io/",
+      "reason": "Prefer current dedicated API docs."
+    },
+    {
+      "type": "observed_doc_conflict",
+      "app": "Gumroad",
+      "field": "mcp",
+      "before": "MCP landing page says ChatGPT not available, Claude custom only.",
+      "after": "Help guide says both directory connectors are available; row claims only official MCP existence.",
+      "url": "https://gumroad.com/help/article/355-connect-ai-assistants-to-gumroad",
+      "other_url": "https://gumroad.com/mcp",
+      "reason": "Avoided unresolved directory-distribution assertion."
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://fanbasis.com",
+      "status": 403
+    },
+    {
+      "url": "https://gumroad.com/api",
+      "status": "no_readable_lines"
+    },
+    {
+      "url": "https://developers.facebook.com/documentation/threads/get-started/get-access-tokens-and-permissions",
+      "status": 429
+    },
+    {
+      "url": "https://docs.waterfall.io/waterfall-v1-1",
+      "status": 404
+    }
+  ],
+  "accuracy": {
+    "human_sample": null,
+    "accuracy_before": null,
+    "accuracy_after": null,
+    "reason": "This research pass establishes a baseline; document conflicts do not by themselves measure agent accuracy."
+  }
+}
