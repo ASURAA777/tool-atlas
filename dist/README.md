@@ -86,6 +86,6 @@ MCP `not_verified` is not an absence claim. Confidence is an agent judgment, not
 
 ## Explain it in the interview
 
-The core decision is whether an app has a usable credential path **for the intended scope**. Public documentation, a free sandbox, a personal token and public multi-tenant distribution are different facts. The pipeline preserves these differences instead of collapsing them into “API available.” Its strongest trust mechanism is a traceable claim plus a visible unresolved state—not an impressive but unsupported accuracy percentage.
+The core decision is whether an app has a usable credential path **for the intended scope**. Public documentation, a free sandbox, a personal token and public multi-tenant distribution are different facts. The pipeline preserves these differences instead of collapsing them into “API available.” Its strongest trust mechanism is a traceable claim plus a visible unresolved state, not an impressive but unsupported accuracy percentage.
 
 The next improvements are human audits, authenticated read-only smoke tests for a small set, vendor-identity allowlists for the live runner, and scheduled rechecks of auth and access rules.
